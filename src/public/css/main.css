@@ -1,0 +1,334 @@
+/* Fondo */
+body {
+
+    background: #56ab2f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+
+  button {
+    border: none;
+
+  }
+  
+  /* Sub menu */
+  .contenedor{
+    width: 100%;
+    max-width: 120em;
+    padding: 1em;
+  }
+  .contenedor .ul{
+  
+    padding-left: 0;
+    list-style: none;
+   
+  }
+  .contenedor .li{
+    padding: 1em;
+    margin: 0 1em 0 0;
+    transition: all .5s ease;
+  }
+  .contenedor .li:hover{
+  background-color: #a8e063;
+  color: white;
+  
+  }
+  .contenedor .li.activo{
+  background-color: #56ab2f;
+  color: white;
+  
+  
+  }
+  .contenedor .subcontenedor{
+    min-height: 10vh;
+    position: relative;
+  }
+  .contenedor .bloque {
+    width: 100%;
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all .5s ease;
+    z-index: 1;
+    display: none;
+    
+  }
+  .contenedor .bloque.activo{
+      opacity: 1;
+      position: relative;
+      z-index: 2;
+      display: block;
+  }
+  
+  .contenedor .bloque.noactivo{
+  
+    visibility: hidden;
+  }
+  
+  
+  /* Acordeon */
+  .accordion-item{
+    border: none;
+  
+  }
+  
+  .accordion-button:hover {
+    background-color: #a8e063;
+    color: white;
+  }
+  .accordion-button:not(.collapsed){
+    color: #56ab2f;
+    background: #56ab2f;
+    color: white;
+  
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+  
+    filter: brightness(0%) invert(70%);
+  
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  /* Login */
+  
+  .card-login {
+    border-color: none; 
+  
+  }
+  
+  .form-control{
+    border-color:rgb(128, 128, 128);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .form-control:focus{
+    border-color: rgb(0, 0, 0);
+    box-shadow: none;
+  
+  }
+  
+  
+  .btn-login {
+    width: 100%;
+    background-color: rgb(86, 171, 47);
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: rgb(168, 224, 99);
+    color: white;
+  }
+  
+  .img-proceso {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  .card-proceso {
+    width: 80%;
+    display: block;
+    margin: auto;
+  }
+  
+  /*Ejemplos*/
+  
+  .offcanvas {
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+  }
+  
+  .offcanvas.offcanvas-bottom{
+    height: 85%;
+    margin-top: 2%;
+    margin-bottom: 7%;
+  }
+  
+  /* Boton ejemplos*/
+  
+  .div-sticky{
+    position: sticky;
+    float: right;
+    top: 90%;
+    z-index: 3;
+  
+  }
+  
+  .btnarriba{
+    border: 0px;
+    background-color: rgb(168, 224, 99);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.2;
+    transition: all 1s;
+  }
+  
+  .btnarriba:hover  {
+    opacity: 1;
+     
+  }
+  
+  .botonejemdoc {
+  
+    border: none;
+    color: white;
+    transition: all 1s;
+  }
+  
+  
+  .botonejemdoc:hover  {
+    transform: scale(1.1);
+     
+  }
+  
+  .carousel-ejemplo, .carousel-inner-ejemplo > .carousel-item > img {
+    max-width: 530px; 
+    max-height: 680px;
+  }
+  
+  
+  .card-directorio{
+  
+    margin: 10 px;
+  
+  }
+  
+  .BotonAcuse{
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 1s;
+  
+  }
+  
+  .Botonmanual{
+    background-color: #68c43e;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 1s;
+    font-weight: bold;
+  
+  }
+  
+  
+  .Botonmanual:hover{
+    transform: scale(1.1);
+    background-color: rgb(168, 224, 99);
+  
+  }
+  
+  .Botonmenu{
+    background-color: #68c43e;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: all 1s;
+    font-weight: bold;
+  }
+  
+  .Botonmenu:hover{
+    transform: scale(1.05);
+    background-color: rgb(168, 224, 99);
+  
+  }
+  
+  .Botonsubmenu{
+    background-color: #ffffff;
+    margin: 20px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    transition: all 1s;
+  }
+  
+  .Botonsubmenu:hover{
+    transform: scale(1.02);
+    background-color: rgb(187, 187, 187);
+  
+  }
+  
+  .card-importante {
+  border: 0px;
+  background-color: rgb(255, 155, 155);
+  
+  }
+  
+  .card-aviso {
+    border: 0px;
+    background-color: rgb(205, 248, 152);
+    
+    }
+  
+  .carousel-control-prev-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c4c4c4 ' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+  }
+     
+    .carousel-control-next-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23c4c4c4' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+  }
+  
+  
+  .nav-link:hover{  
+    color: white;
+    background-color: #68c43e;
+  
+  }
+  
+  
+  .list-group-item {
+   border: 0px;
+  
+  }
+  
+  .list-group-item.active {
+    background-color: #68c43e;
+  }
+  
+  /* Imagenes Mapa */
+  
+  .imagenes_mapa {
+    height: 100px;
+    display:block;
+    margin:auto;
+  }
+  
+  
+  /* Menu buscardor*/
+  .menuBuscador{
+    background-color: #ffffff;
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all 1s;
+  }
+  
+  .menuBuscador:hover{
+    transform: scale(1.02);
+    background-color: #d8fdc7;
+  
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }

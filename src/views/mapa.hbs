@@ -1,0 +1,119 @@
+<div class="container rounded-3 py-3 bg-white">
+
+    <h1 class="text-center">Mapa</h1>
+
+    <div class="row py-5">
+
+      <div class="col-3">
+        <div class="col">
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(1)">Titulación</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(2)">Servicio social</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(3)">Servicios escolares</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(4)">Recolección de documentos</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(5)">Apostilla</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(6)">Directorio</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(7)">Manuales</a>
+          <a class="Botonmenu row py-3 px-3 my-0 bton justify-content-center" onmouseover="mostrarDocumento(8)">Preguntas frecuentes</a>
+        </div>
+
+      </div>
+
+      <div class="col-9">
+
+        <div class="tramites">
+
+        <!--Titulación-->
+        <div class="py-2" style="display: none;" id="titulacion">
+          <img src="Img/Titulacion_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center py-0">Titulación</h5>
+          <a  href="titulacion#bloqueCertificacion" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(1)">Certificación</a>
+          <a  href="titulacion#boqueTitulacion" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(2)">Titulación</a>
+          <a  href="titulacion#bloqueTitulacionLatam" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(3)">Titulación LATAM</a>
+          <a  href="titulacion#bloqueTituloInt" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(4)">Titulo intermedio</a>
+          <a  href="titulacion#boqueCertificadoPar" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(5)">Certificado parcial</a>
+        </div>
+
+        <!--Servicio social-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="serviciosocial">
+          <img src="Img/Serso_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Servicio social</h5>
+          <a href="serviciosocial#SSregular" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(6)">Servicio social regular</a>
+          <a href="serviciosocial#SSart91" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(7)">Servicio social por articulo 91</a>
+          <a href="serviciosocial#SSart52" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(8)">Servicio social por articulo 52</a>
+          <a href="serviciosocial#SSconcausa" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(9)">Servicio social con causa</a>
+          <a href="serviciosocial#SScoach" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(10)">Servicio social en UTEL como coach universitario</a>
+          <a href="serviciosocial#SStrabajo" class="Botonsubmenu row py-3 px-3 my-0 bton" onclick="selecNum(11)">Trabajo colaborativo</a>
+        </div>
+        
+        <!--Servicios escolares-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="sees">
+          <img src="Img/Escolares_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Servicios escolares</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Tipos de ingreso</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Tramites que realiza escolares</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Costos en plataforma</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Preguntas frecuentes</a>
+        </div>
+
+        <!--Recoleción de documentos-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="recolecdocs">
+          <img src="Img/Documentos_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Recoleción de documentos</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Documentación UTEL</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos nacionales?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos LATAM?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Legalización</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Archivo</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Procesos</a>
+        </div>
+
+        <!--Apostilla-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="apostilla">
+          <img src="Img/Apostilla_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Recoleción de documentos</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Apostilla</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Convalidación</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Doble reconocimiento</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Procesos</a>
+        </div>
+
+        <!--Directorio-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="directorio">
+          <img src="Img/Directorio_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Recoleción de documentos</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Documentación UTEL</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos nacionales?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos LATAM?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Legalización</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Archivo</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Procesos</a>
+        </div>
+
+        <!--Manuales-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="manuales">
+          <img src="Img/Manual_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Recoleción de documentos</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Documentación UTEL</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos nacionales?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >¿Como validar documentos LATAM?</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Legalización</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Archivo</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Procesos</a>
+        </div>
+
+        <!--Preguntas frecuentes-->
+        <div class="card border-0 mb-3 py-2 doc" style="display: none;" id="preguntfrec">
+          <img src="Img/Preguntas_img.png" class="imagenes_mapa" alt="...">
+          <h5 class="card-title text-center">Recoleción de documentos</h5>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Titulación</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Servicio social</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Control documental</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Escolares</a>
+          <a class="Botonsubmenu row py-3 px-3 my-0 bton" >Tutoria</a>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+  </div> 
