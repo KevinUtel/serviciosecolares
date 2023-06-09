@@ -44,10 +44,10 @@ const infoTitulacion = [
     el registro de su título electrónico ante la SEP,  este trámite tarda aproximadamente 2 meses y a partir de 
     que se notifica que concluyó  puede tramitar  la cédula profesional.</br></br>
     
-    4. Expedición de constancia de título electrónico: una vez que concluye el registro del título, se comienza 
+    3. Expedición de constancia de título electrónico: una vez que concluye el registro del título, se comienza 
     la gestión de la constancia de título electrónico la cual tarda un tiempo aproximado de 8 a 10 semanas.</br></br>
                               
-    3.- Expedición de título honorífico (documento físico simbólico): Tarda un tiempo aproximado de 2 meses y 
+    4.- Expedición de título honorífico (documento físico simbólico): Tarda un tiempo aproximado de 2 meses y 
     va firmado por el Rector y el Director de Servicios Escolares.</br></br>
   
     Deberá contar con el 100% de los créditos académicos y estar en estatus de egresado, haber concluido y liberado 
@@ -353,16 +353,16 @@ const bloqueImagenTexto = [
     img: 'img/titulacion/titulo.png',
     img_carousel:`
     <div class="carousel-item active">
-    <img src="img/Titulacion/cer-tot.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cer-tot.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Titulo.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/titulo.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Apostille.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/apostille.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/CPA.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cpa.png " class="d-block w-100" alt="...">
     </div>   
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
@@ -392,16 +392,16 @@ const bloqueImagenTexto = [
     img: 'img/titulacion/titulo.png',
     img_carousel:`
     <div class="carousel-item active">
-    <img src="img/Titulacion/cer-tot.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cer-tot.png " class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Titulo.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/titulo.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Apostille.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/apostille.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/CPA.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cpa.png " class="d-block w-100" alt="...">
     </div>   
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
@@ -431,16 +431,16 @@ const bloqueImagenTexto = [
     img: 'img/titulacion/titulo.png',
     img_carousel:`
     <div class="carousel-item active">
-    <img src="img/Titulacion/cer-tot.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cer-tot.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Titulo.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/titulo.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/Apostille.PNG" class="d-block w-100" alt="...">
+    <img src="img/titulacion/apostille.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-    <img src="img/Titulacion/CPA.PNG " class="d-block w-100" alt="...">
+    <img src="img/titulacion/cpa.png " class="d-block w-100" alt="...">
     </div>   
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
