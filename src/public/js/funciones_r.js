@@ -419,7 +419,7 @@ procesoTitNacional.forEach((cadaLi, i) => {
         procesoTitNacional[i].innerHTML = '';
         procesoTitNacional[i].innerHTML = `                              
         <h2 class="text-center">${solicitarTitulo()}</h2>  
-        <img class="img-proceso" src="img/ProcesoT.PNG">
+        <img class="img-proceso" src="img/procesot.png">
         <div class="card border-0 card-proceso col-lg-9 ">
           <h5 class="card-title" >El proceso consta de:</h5> </br>
           <p class="card-text">                                      
