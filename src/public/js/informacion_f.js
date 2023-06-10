@@ -448,7 +448,7 @@ const bloqueImagenTexto = [
     Titulo:'Titulación licenciatura LATAM<',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
-    1.-Certificado electrónico.2 a 3 meses en obtenerse autenticado.
+    1.-Certificado electrónico 2 a 3 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 8 a 10 semanas.
     </br></br>

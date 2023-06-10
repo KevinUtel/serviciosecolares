@@ -332,3 +332,10 @@ body {
   a:visited {
     text-decoration: none;
   }
+
+  .imagenes_ejemplo {
+    
+    max-height: 736px; 
+    max-width: 478px;
+
+  }

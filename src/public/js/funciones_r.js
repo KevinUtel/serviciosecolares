@@ -133,7 +133,7 @@ ImagenYTexto.forEach((cadaLi, i) => {
                     <!--Imagen ejemplo-->
                     <div class="col">
 
-                      <img src="${solicitarimg()}" class="d-block w-100" alt="...">
+                      <img src="${solicitarimg()}" class="imagenes_ejemplo d-block w-100" alt="...">
                       
                     </div>
                     
