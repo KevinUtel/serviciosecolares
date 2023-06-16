@@ -262,9 +262,9 @@ const bloqueImagenTexto = [
 
     //Certificación Mexico
     {
-    idtp: 'clicenciatura', 
+    idtp: 'clicenciatura',
     ido: 'ejemplo-cer-lic',
-    img: './img/titulacion/cer-tot.png',
+    img: './img/titulacion/licenciatura/nacional/certificadolic.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-lic',
     Titulo:'Certificación',
     Texto: `
@@ -278,7 +278,7 @@ const bloqueImagenTexto = [
     {
     idtp: 'cmaestria', 
     ido: 'ejemplo-cer-mae',
-    img: 'img/titulacion/cer-tot.png',
+    img: 'img/titulacion/maestria/nacional/certificadomae.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-mae',
     Titulo:'Certificación',
     Texto: `
@@ -292,7 +292,7 @@ const bloqueImagenTexto = [
     {
     idtp: 'cdoctorado', 
     ido: 'ejemplo-cer-doc',
-    img: 'img/titulacion/cer-tot.png',
+    img: 'img/titulacion/doctorado/nacional/certificadodoc.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-doc',
     Titulo:'Certificación',
     Texto: `
@@ -307,7 +307,7 @@ const bloqueImagenTexto = [
     {
     idtp: 'tlicenciatura', 
     ido: 'ejemplo-tit-lic',
-    img: 'img/titulacion/titulo.png',
+    img: 'img/titulacion/licenciatura/nacional/titulolic.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
     Titulo:'titulación',
     Texto: `
@@ -321,7 +321,7 @@ const bloqueImagenTexto = [
     {
     idtp: 'tmaestria', 
     ido: 'ejemplo-tit-mae',
-    img: 'img/titulacion/titulo.png',
+    img: 'img/titulacion/maestria/nacional/titulomae.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
     Titulo:'titulación',
     Texto: `
@@ -335,7 +335,7 @@ const bloqueImagenTexto = [
     {
     idtp: 'tdoctorado', 
     ido: 'ejemplo-tit-doc',
-    img: 'img/titulacion/titulo.png',
+    img: 'img/titulacion/doctorado/nacional/titulodoc.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
     Titulo:'Certificación',
     Texto: `
