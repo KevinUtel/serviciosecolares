@@ -20,4 +20,9 @@ indexCtrl.renderMapa= (req, res) =>{
     res.render('mapa')
 }
 
+indexCtrl.renderRecolecion= (req, res) =>{
+    res.render('recoleccion')
+}
+
+
 module.exports = indexCtrl;
