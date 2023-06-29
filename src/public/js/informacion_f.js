@@ -77,6 +77,9 @@ const infoTitulacion = [
     -Documentación completa ( acta de nacimiento , certificado de bachillerato o dictamen en caso de revalidación 
     o equivalencia)`, 
     id: 'clicenciatura'
+
+            
+
     },
 
     {
@@ -91,7 +94,10 @@ const infoTitulacion = [
     -No tener adeudos </br>
     -Pago de titulación o pago del documento </br>
     -Documentación completa ( acta de nacimiento , certificado de licenciatura o dictamen en caso de revalidación o equivalencia)
-    o equivalencia)`, 
+    o equivalencia)
+        
+    
+    `, 
     id: 'cmaestria'
     },
     
@@ -271,7 +277,9 @@ const bloqueImagenTexto = [
     <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+    Para obtenerlo debes tener tu expediente físico completo.</br>        
+    
+    `, 
     id: 'btcl'
     },
 
@@ -309,12 +317,16 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-lic',
     img: 'img/titulacion/licenciatura/nacional/titulolic.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
-    Titulo:'titulación',
+    Titulo:'Titulación Licenciatura',
     Texto: `
     <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+    Un título profesional es un documento que avala que has cursado estudios de 
+    nivel superior y acreditado satisfactoriamente las 
+    evaluaciones correspondientes y que, por lo tanto, posees los 
+    conocimientos necesarios para practicar tu profesión.</br></br>
+    Para obtenerlo debes tener tu expediente físico completo, servicio social liberado, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttl'
     },
 
@@ -323,12 +335,16 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-mae',
     img: 'img/titulacion/maestria/nacional/titulomae.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
-    Titulo:'titulación',
+    Titulo:'Titulación Maestria',
     Texto: `
     <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+    Un título profesional es un documento que avala que has cursado estudios de 
+    nivel superior y acreditado satisfactoriamente las 
+    evaluaciones correspondientes y que, por lo tanto, posees los 
+    conocimientos necesarios para practicar tu profesión.</br></br>
+    Para obtenerlo debes tener tu expediente físico completo, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttm'
     },
     
@@ -337,12 +353,16 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-doc',
     img: 'img/titulacion/doctorado/nacional/titulodoc.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
-    Titulo:'Certificación',
+    Titulo:'Titulación Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
+    <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+    Un título profesional es un documento que avala que has cursado estudios de 
+    nivel superior y acreditado satisfactoriamente las 
+    evaluaciones correspondientes y que, por lo tanto, posees los 
+    conocimientos necesarios para practicar tu profesión.</br></br>
+    Para obtenerlo debes tener tu expediente físico completo, constancia de ingles, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttd'
     },
 
@@ -370,7 +390,7 @@ const bloqueImagenTexto = [
     Titulo:'Titulación licenciatura LATAM<',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
-    1.-Certificado electrónico.2 a 3 meses en obtenerse autenticado.
+    1.-Certificado electrónico 2 a 3 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 8 a 10 semanas.
     </br></br>
@@ -409,7 +429,7 @@ const bloqueImagenTexto = [
     Titulo:'Titulación licenciatura LATAM<',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
-    1.-Certificado electrónico.2 a 3 meses en obtenerse autenticado.
+    1.-Certificado electrónico 2 a 3 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 8 a 10 semanas.
     </br></br>

@@ -94,8 +94,34 @@ ImagenYTexto.forEach((cadaLi, i) => {
               }
           }
 
-      return resultado;
-      }
+        return resultado;
+        }
+
+        let solicitarTexto = ()=>{
+          for (let bloquesImagenTexto of bloqueImagenTexto){
+
+              let idp = bloquesImagenTexto.id.toLowerCase();
+              if(idp.indexOf(ImagenYTexto[i].id) !== -1){
+                  
+              resultado = `${bloquesImagenTexto.Texto}`
+              }
+          }
+
+        return resultado;
+        }
+
+        let solicitarTitulo = ()=>{
+          for (let bloquesImagenTexto of bloqueImagenTexto){
+
+              let idp = bloquesImagenTexto.id.toLowerCase();
+              if(idp.indexOf(ImagenYTexto[i].id) !== -1){
+                  
+              resultado = `${bloquesImagenTexto.Titulo}`
+              }
+          }
+
+        return resultado;
+        }
 
 
         ImagenYTexto[i].innerHTML = '';
@@ -111,7 +137,7 @@ ImagenYTexto.forEach((cadaLi, i) => {
                 <div class="TituloYTexto" id="${solicitarIdtp()}">
                 </div>
               </div>
-
+            
               <!--Imagen ejemplo-->
               <div class="col-lg-4">
                 <div class="text-center">
@@ -122,7 +148,7 @@ ImagenYTexto.forEach((cadaLi, i) => {
 
                 <!--Title-->
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="${solicitaridoh()}">Certificación</h5>
+                  <h5 class="offcanvas-title" id="${solicitaridoh()}">${solicitarTitulo()}</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
@@ -140,10 +166,7 @@ ImagenYTexto.forEach((cadaLi, i) => {
                     <!--Texto descripción-->
                     <div class="col card border border-0">
 
-                      <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
-                      Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Maestría y que 
-                      requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-                      Para obtenerlo debes tener tu expediente físico completo.</br>
+                    ${solicitarTexto()}
 
                     </div>
 
