@@ -336,11 +336,8 @@ ImagenTextoCarrusel.forEach((cadaLi, i) => {
                           <p>
 
                           <div class="row py-3">
-    
-                            <a class="Botonmanual col py-3 px-3" href="apostille.html">Apostilla</a>
                             <a class="Botonmanual col py-3 px-3" href="apostille.html">Convalidación</a>
                             <a class="Botonmanual col py-3 px-3" href="apostille.html">Documentación LATAM</a>
-
                           </div>
                         </div>
                       </div>   
@@ -455,10 +452,10 @@ procesoTitNacional.forEach((cadaLi, i) => {
 
         <div class="row py-3">
           
-          <a class="Botonmanual col py-3 px-3" href="Manual-tit-nacional.pdf" target="_blank" >INICIO DE TRAMITE FLOKZU</a>
-          <a class="Botonmanual col py-3 px-3" href="Manual-tit-nacional.pdf" target="_blank">INICIO DE TRAMITE FLOKZU LATAM</a>
-          <a class="Botonmanual col py-3 px-3" href="Manual-tit-nacional.pdf" target="_blank">CONTINUACIÓN DE TRAMITE DE TITULACIÓN</a>
-          <a class="Botonmanual col py-3 px-3" href="Cedula.pdf" target="_blank">TRAMITE DE CÉDULA PROFESIONAL</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank" >INICIO DE TRAMITE FLOKZU</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-latam.pdf" target="_blank">INICIO DE TRAMITE FLOKZU LATAM</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank">CONTINUACIÓN DE TRAMITE DE TITULACIÓN</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/cedula.pdf" target="_blank">TRAMITE DE CÉDULA PROFESIONAL</a>
 
         </div>
         `           

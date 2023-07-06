@@ -277,7 +277,10 @@ const bloqueImagenTexto = [
     <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>        
+
+    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
+
+    Para obtenerlo debes tener tu expediente físico completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
     
     `, 
     id: 'btcl'
@@ -291,9 +294,14 @@ const bloqueImagenTexto = [
     Titulo:'Certificación',
     Texto: `
     <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
+    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Mestría y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+
+    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
+
+    Para obtenerlo debes tener tu expediente físico completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
+    
+    `, 
     id: 'btcm'
     },
     
@@ -305,9 +313,14 @@ const bloqueImagenTexto = [
     Titulo:'Certificación',
     Texto: `
     <strong class="py-3 px-3"> Caracteristicas de la certificacion</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
+    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Doctorado y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Para obtenerlo debes tener tu expediente físico completo.</br>`, 
+
+    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
+
+    Para obtenerlo debes tener tu expediente físico completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
+    
+    `, 
     id: 'btcd'
     },
 

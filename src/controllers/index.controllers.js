@@ -25,4 +25,20 @@ indexCtrl.renderRecolecion= (req, res) =>{
 }
 
 
+indexCtrl.renderDirectorio= (req, res) =>{
+    res.render('directorio')
+}
+
+indexCtrl.renderServicioses= (req, res) =>{
+    res.render('servicioses')
+}
+
+indexCtrl.renderLatam= (req, res) =>{
+    res.render('latam')
+}
+
+indexCtrl.renderDudas= (req, res) =>{
+    res.render('preguntas')
+}
+
 module.exports = indexCtrl;

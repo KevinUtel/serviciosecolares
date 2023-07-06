@@ -1,7 +1,17 @@
 const { Router } = require('express');
 const router = Router();
 
-const { renderIndex, renderAbout, rendertitulacion, renderServiciosocial, renderMapa, renderRecolecion} = require('../controllers/index.controllers')
+const { renderIndex, 
+        renderAbout, 
+        rendertitulacion, 
+        renderServiciosocial, 
+        renderMapa, 
+        renderRecolecion, 
+        renderDirectorio,
+        renderServicioses,
+        renderLatam,
+        renderDudas
+    } = require('../controllers/index.controllers')
 
 const {isAuthenticated} = require('../helpers/auth')
 
@@ -17,7 +27,12 @@ router.get('/mapa', isAuthenticated, renderMapa);
 
 router.get('/recoleccion', isAuthenticated, renderRecolecion);
 
+router.get('/directorio', isAuthenticated, renderDirectorio);
 
+router.get('/servicioses', isAuthenticated, renderServicioses);
 
+router.get('/latam', isAuthenticated, renderLatam);
+
+router.get('/preguntas', isAuthenticated, renderDudas);
 
 module.exports = router;
