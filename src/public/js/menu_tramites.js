@@ -10,8 +10,9 @@ const UtelHCostos =document.getElementById('UtelHCostos');
 const UtelLCostos =document.getElementById('UtelLCostos');
 
 
+
    
-function mostrarDocumento(x){
+function mostrarTramite(x){
     var menu = x;
     switch(menu){
         case 1:

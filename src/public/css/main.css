@@ -339,3 +339,10 @@ body {
     max-width: 478px;
 
   }
+
+  .tramiteactivo{
+    display: block;
+  }
+  .tramitenoactivo{
+    display: none;
+  }

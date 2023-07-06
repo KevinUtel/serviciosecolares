@@ -454,9 +454,7 @@ procesoTitNacional.forEach((cadaLi, i) => {
           
           <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank" >INICIO DE TRAMITE FLOKZU</a>
           <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-latam.pdf" target="_blank">INICIO DE TRAMITE FLOKZU LATAM</a>
-          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank">CONTINUACIÓN DE TRAMITE DE TITULACIÓN</a>
           <a class="Botonmanual col py-3 px-3" href="docs/manualtit/cedula.pdf" target="_blank">TRAMITE DE CÉDULA PROFESIONAL</a>
-
         </div>
         `           
     }
