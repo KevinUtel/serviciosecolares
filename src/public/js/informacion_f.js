@@ -21,8 +21,8 @@ const infoTitulacion = [
     },
 
     {
-    Titulo: '¿Qué es el título intermedio?', 
-    Texto: 'El Título Intermedio es un diploma con valor curricular que avalará los conocimientos, habilidades y aptitudes académicas adquiridas al cursar cualquier programa  hasta el momento de su expedición.', 
+    Titulo: '¿Qué es el Diploma intermedio?', 
+    Texto: 'El Diploma Intermedio es un diploma con valor curricular que avalará los conocimientos, habilidades y aptitudes académicas adquiridas al cursar cualquier programa  hasta el momento de su expedición.', 
     id: '3'
     },
 
