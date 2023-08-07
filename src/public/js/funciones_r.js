@@ -336,8 +336,8 @@ ImagenTextoCarrusel.forEach((cadaLi, i) => {
                           <p>
 
                           <div class="row py-3">
-                            <a class="Botonmanual col py-3 px-3" href="apostille.html">Convalidación</a>
-                            <a class="Botonmanual col py-3 px-3" href="apostille.html">Documentación LATAM</a>
+                            <a class="Botonmanual col py-3 px-3" href="latam">Convalidación</a>
+                            <a class="Botonmanual col py-3 px-3" href="recoleccion">Documentación LATAM</a>
                           </div>
                         </div>
                       </div>   
@@ -355,7 +355,6 @@ ImagenTextoCarrusel.forEach((cadaLi, i) => {
 
 //TITULO Y TEXTO
 const tituloYTexto = document.querySelectorAll('.TituloYTexto');
-console.log(tituloYTexto)
 tituloYTexto.forEach((cadaLi, i) => {
 
     const mostrarTituloYTexto = ()=>{

@@ -43,18 +43,27 @@ const costosSeBloque = document.getElementById('bloqueCostosSe');
 const preguntas_fSeMenu = document.getElementById('menuPreguntas_fSe');
 const preguntas_fSeBloque = document.getElementById('bloquePreguntas_fSe');
 
+apartado();
 
+const botonCerti = document.getElementById("botoncerti");
 
-function selecNum(Num){
-    var numLocal = Num;
+botonCerti.addEventListener("click", function(){
+    var numLocal = certi;
     localStorage.setItem('numLocal', JSON.stringify( numLocal))
-}
+})
 
+const botontitu = document.getElementById("botontitu");
+
+botontitu.addEventListener("click", function(){
+    var numLocal = 2;
+    localStorage.setItem('numLocal', JSON.stringify( numLocal))
+})
+
+function apartado(){
 var valorAlmacenado = JSON.parse(localStorage.getItem('numLocal'))
-
 switch(valorAlmacenado){
     case 1:
-        
+        localStorage.clear('numLocal');    
     break;
     
     case 2:
@@ -192,3 +201,8 @@ switch(valorAlmacenado){
         localStorage.clear('numLocal'); 
     break;
 }
+}
+
+
+
+
