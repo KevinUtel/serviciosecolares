@@ -20,15 +20,12 @@ const pfTutoriaBloque = document.getElementById('bloquePreguntasFrecuentesTutori
 const preguntasDF = [
 
     //Titulación
+    {nombre: '¿Se puede solicitar un certificado total sin servicio social?', 
+    valor: 'onclick="selecNum(1)"', 
+    id: '#spsuctsss'},
+    
 
-    {nombre: 'Requisitos tramite titulación', valor:1000},
-    {nombre: 'Tiempos titulación', valor:1000},
-    {nombre: '¿Se puede solicitar un certificado total sin servicio social?', valor:1000},
-    {nombre: 'Servicio social regular.', valor:1000},
-    {nombre: 'Servicio social por articulo 52', valor:1000},
-    {nombre: 'Servicio social en UTEL como coach universitario', valor:1000},
-    {nombre: 'Solictar constancia de termino', valor:1000},
-
+  
     //Servicio social 
 
     {nombre: '¿Qué necesito para realizar mi servicio social?', 
@@ -112,17 +109,12 @@ const preguntasDF = [
     valor: 'onclick="selecNum(2)"', 
     id: '#SSUTEL'},
 
-    {nombre: 'Solicitar carta pasante', valor:1000},
-    {nombre: 'Equivalencia', valor:1000},
-    {nombre: 'Revalidación', valor:1000},
-    {nombre: 'Como validar un documento.', valor:1000},
-    {nombre: 'Como tramitar cedula', valor:1000},
-    {nombre: 'Como realizar un registro en CRM', valor:1000},
-    {nombre: 'Documentos apocrifos', valor:1000},
-    {nombre: 'Escolares', valor:1000},
-    {nombre: 'Graduaciones', valor:1000},
-    {nombre: 'Cobranza', valor:1000},
-    {nombre: 'Facturación', valor:1000},
+    //Control documental
+    {nombre: '¿Qué hacer si se identifica un CURP duplicado?', 
+    valor: 'onclick="selecNum(3)"', 
+    id: '#qhssiucd'},
+
+ 
     ]
 
     const formulario = document.querySelector('#formulario');
@@ -178,6 +170,11 @@ const preguntasDF = [
                 pfTulacionBloque.classList.remove('activo')
                 pfTitulacionMenu.classList.add('noactivo')
                 pfTulacionBloque.classList.add('noactivo')
+
+                pfControlDocumentalBloque.classList.remove('activo')
+                pfControlDocumentalMenu.classList.remove('activo')
+                pfControlDocumentalBloque.classList.add('noactivo')
+                pfControlDocumentalMenu.classList.add('noactivo')
         
                 pfServicioSocialMenu.classList.remove('noactivo')
                 pfServicioSocialBloque.classList.remove('noactivo')
@@ -189,30 +186,46 @@ const preguntasDF = [
             break;
         
             case 3:
-                certificacionBloque.classList.remove('activo')
-                certificacionMenu.classList.remove('activo')
-                certificacionBloque.classList.add('noactivo')
-                certificacionMenu.classList.add('noactivo')
+                pfTitulacionMenu.classList.remove('activo')
+                pfTulacionBloque.classList.remove('activo')
+                pfTitulacionMenu.classList.add('noactivo')
+                pfTulacionBloque.classList.add('noactivo')
+
+                pfServicioSocialMenu.classList.remove('activo')
+                pfServicioSocialBloque.classList.remove('activo')
+                pfServicioSocialMenu.classList.add('noactivo')
+                pfServicioSocialBloque.classList.add('noactivo')
         
-                titulacionLatamBloque.classList.remove('noactivo')
-                titulacionLatamMenu.classList.remove('noactivo')
-                titulacionLatamBloque.classList.add('activo')
-                titulacionLatamMenu.classList.add('activo')
-                localStorage.clear('numLocal');       
-                
-            break;
+                pfControlDocumentalBloque.classList.remove('noactivo')
+                pfControlDocumentalMenu.classList.remove('noactivo')
+                pfControlDocumentalBloque.classList.add('activo')
+                pfControlDocumentalMenu.classList.add('activo')
+                formulario.value = "";
+                resultado.innerHTML = '';
         
             case 4:
-                certificacionBloque.classList.remove('activo')
-                certificacionMenu.classList.remove('activo')
-                certificacionBloque.classList.add('noactivo')
-                certificacionMenu.classList.add('noactivo')
+                pfTitulacionMenu.classList.remove('activo')
+                pfTulacionBloque.classList.remove('activo')
+                pfTitulacionMenu.classList.add('noactivo')
+                pfTulacionBloque.classList.add('noactivo')
+
+                pfServicioSocialMenu.classList.remove('activo')
+                pfServicioSocialBloque.classList.remove('activo')
+                pfServicioSocialMenu.classList.add('noactivo')
+                pfServicioSocialBloque.classList.add('noactivo')
         
-                tituloIntBloque.classList.remove('noactivo')
-                tituloIntMenu.classList.remove('noactivo')
-                tituloIntBloque.classList.add('activo')
-                tituloIntMenu.classList.add('activo')
-                localStorage.clear('numLocal');       
+                pfControlDocumentalBloque.classList.remove('activo')
+                pfControlDocumentalMenu.classList.remove('activo')
+                pfControlDocumentalBloque.classList.add('noactivo')
+                pfControlDocumentalMenu.classList.add('noactivo')
+
+                pfFrecuentesEscolaresBloque.classList.remove('noactivo')
+                pfFrecuentesEscolaresMenu.classList.remove('noactivo')
+                pfFrecuentesEscolaresBloque.classList.add('activo')
+                pfFrecuentesEscolaresMenu.classList.add('activo')
+
+                formulario.value = "";
+                resultado.innerHTML = '';   
             break;
         
             case 5:
