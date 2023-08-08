@@ -10,13 +10,13 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la titulación?', 
-    Texto: 'Es una distinción dada por UTEL , después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura , maestría , doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar', 
+    Texto: 'Es una distinción dada por UTEL, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar', 
     id: '1'
     },
 
     {
     Titulo: '¿Qué es la titulación LATAM?', 
-    Texto: 'Es una distinción dada por UTEL , después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura , maestría , doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar.', 
+    Texto: 'Es una distinción dada por UTEL, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar.', 
     id: '2'
     },
 
@@ -66,7 +66,7 @@ const infoTitulacion = [
     3. Expedición de constancia de título electrónico: una vez que concluye el registro del título, se comienza 
     la gestión de la constancia de título electrónico la cual tarda un tiempo aproximado de 2 meses. </br></br>
                               
-    4.- Expedición de representación grafica (documento físico simbólico): Tarda un tiempo aproximado de 2 meses y 
+    4.- Expedición de representación gráfica (documento físico simbólico): Tarda un tiempo aproximado de 2 meses y 
     va firmado por el Rector.</br></br>
     
     El alumno deberá contar con el 100% de los créditos académicos y estar en estatus de egresado, haber concluido y liberado 
@@ -130,7 +130,7 @@ const infoTitulacion = [
     -Estatus de Egresado </br>
     -No tener adeudos </br>
     -Pago de titulación o pago del documento </br>
-    -Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia , constancia de idioma inglés)
+    -Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia, constancia de idioma inglés)
     `, 
     id: 'cdoctorado'
     },
@@ -140,12 +140,12 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura', 
     Texto:`
-        El proceso de titulación se divide en registro de título y título digital </br></br>
+        El proceso de titulación se divide en registro de título y título digital. </br></br>
                             
         Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
-        partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
+        partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
 
-        Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
+        Título digital: demora 2 meses, se comparte en digital en archivo pdf. y xml </br></br>
 
         Se deberán cubrir los siguientes requisitos:</br>
 
@@ -199,7 +199,7 @@ const infoTitulacion = [
     -Estatus de Egresado </br>
     -No tener adeudos </br>
     -Pago de titulación </br>
-    -Documentación completa (acta de nacimiento , certificado de licenciatura  o dictamen en 
+    -Documentación completa (acta de nacimiento, certificado de licenciatura  o dictamen en 
     caso de revalidación o equivalencia, constancia de idioma inglés)
     Para titulación directa promedio mínimo de 9.5.</br>
     `, 
@@ -225,7 +225,7 @@ const infoTitulacion = [
     -No tener adeudos </br>
     -Pago de titulación </br>
     -Servicio social liberado </br>
-    -Documentación completa (acta de nacimiento , certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
+    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
     `, 
     id: 'tlatamlicenciatura'
@@ -236,10 +236,10 @@ const infoTitulacion = [
     Texto:`
     El proceso de titulación se divide en registro de título y título digital </br></br>
     
-    Registro de título: demora de 2 meses,se notifica por correo electrónico una vez que concluye y a
+    Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
     partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
 
-    Título digital: demora 4 meses , se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora 4 meses, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -248,7 +248,7 @@ const infoTitulacion = [
     -No tener adeudos </br>
     -Pago de titulación </br>
     -Servicio social liberado </br>
-    -Documentación completa (acta de nacimiento , certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
+    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
     -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
     
     `, 
@@ -260,10 +260,10 @@ const infoTitulacion = [
         Texto:`
         El proceso de titulación se divide en registro de título y título digital </br></br>
         
-        Registro de título: demora de 2 meses,se notifica por correo electrónico una vez que concluye y a
+        Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
     
-        Título digital: demora 4 meses , se comparte en digital en archivo pdf y xml </br></br>
+        Título digital: demora 4 meses, se comparte en digital en archivo pdf y xml </br></br>
     
         Se deberán cubrir los siguientes requisitos:</br>
     
@@ -272,7 +272,7 @@ const infoTitulacion = [
         -No tener adeudos </br>
         -Pago de titulación </br>
         -Servicio social liberado </br>
-        -Documentación completa (acta de nacimiento , certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
+        -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
         -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
         `, 
         id: 'tlatamdoctorado'
@@ -293,7 +293,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-lic',
     Titulo:'Certificación',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la certificación</strong>
+    <strong class="py-3 px-3"> Características de la certificación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
 
@@ -312,7 +312,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-mae',
     Titulo:'Certificación',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la certificación</strong>
+    <strong class="py-3 px-3"> Características de la certificación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Maestría y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
 
@@ -331,7 +331,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-doc',
     Titulo:'Certificación',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la certificación</strong>
+    <strong class="py-3 px-3"> Características de la certificación</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Doctorado y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
 
@@ -351,14 +351,14 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
     Titulo:'Titulación Licenciatura',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
+    <strong class="py-3 px-3"> Características de la titulación</strong>
+    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, servicio social liberado, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, servicio social liberado, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttl'
     },
 
@@ -369,14 +369,14 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
     Titulo:'Titulación Maestria',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
+    <strong class="py-3 px-3"> Características de la titulación</strong>
+    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttm'
     },
     
@@ -387,14 +387,14 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
     Titulo:'Titulación Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Caracteristicas de la titulación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Lincenciatura y que 
+    <strong class="py-3 px-3"> Características de la titulación</strong>
+    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, constancia de ingles, avance currricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, constancia de inglés, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
     id: 'bttd'
     },
 
@@ -419,7 +419,7 @@ const bloqueImagenTexto = [
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
     idc: 'carouselliclatam',
-    Titulo:'Titulación licenciatura LATAM<',
+    Titulo:'Titulación licenciatura LATAM',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
@@ -428,7 +428,7 @@ const bloqueImagenTexto = [
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación grafica(documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
@@ -467,7 +467,7 @@ const bloqueImagenTexto = [
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación grafica(documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
@@ -499,7 +499,7 @@ const bloqueImagenTexto = [
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
     idc: 'carouseldoclatam',
-    Titulo:'Titulación licenciatura LATAM<',
+    Titulo:'Titulación licenciatura LATAM',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
@@ -508,7 +508,7 @@ const bloqueImagenTexto = [
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación grafica (documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
