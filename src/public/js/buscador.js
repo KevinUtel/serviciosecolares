@@ -23,6 +23,22 @@ const preguntasDF = [
     {nombre: '¿Se puede solicitar un certificado total sin servicio social?', 
     valor: 'onclick="selecNum(1)"', 
     id: '#spsuctsss'},
+
+    {nombre: '¿Cuanto tiempo dura el tramite de titulación?', 
+    valor: 'onclick="selecNum(1)"', 
+    id: '#ctdetdt'},
+
+    {nombre: '¿Qué documentación es necesaria para el trámite de titulación?', 
+    valor: 'onclick="selecNum(1)"', 
+    id: '#ceecdpdt'},
+
+    {nombre: '¿Cuál es el costo del pago de titulación?', 
+    valor: 'onclick="selecNum(1)"', 
+    id: '#ctdetdt'},
+
+    {nombre: '¿Qué hacer si un alumno no quiere realizar trámite de máster a maestría?', 
+    valor: 'onclick="selecNum(1)"', 
+    id: '#qhsuanqrtdmam'},
     
 
   
@@ -155,14 +171,12 @@ const preguntasDF = [
     
     filtrar();
 
-
-
-
     function selecNum(Num){
         
         switch(Num){
             case 1:
-                
+                formulario.value = "";
+                resultado.innerHTML = '';
             break;
             
             case 2:
@@ -229,16 +243,8 @@ const preguntasDF = [
             break;
         
             case 5:
-                certificacionBloque.classList.remove('activo')
-                certificacionMenu.classList.remove('activo')
-                certificacionBloque.classList.add('noactivo')
-                certificacionMenu.classList.add('noactivo')
-        
-                certificadoparBloque.classList.remove('noactivo')
-                certificadoParMenu.classList.remove('noactivo')
-                certificadoparBloque.classList.add('activo')
-                certificadoParMenu.classList.add('activo')
-                localStorage.clear('numLocal'); 
+                formulario.value = "";
+                resultado.innerHTML = '';   
             break;
         }
 
