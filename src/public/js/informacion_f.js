@@ -70,7 +70,7 @@ const infoTitulacion = [
     va firmado por el Rector.</br></br>
     
     El alumno deberá contar con el 100% de los créditos académicos y estar en estatus de egresado, haber concluido y liberado 
-    el servicio social (En caso de maestría no es necesario) no tener adeudos, documentación completa y contar con el pago de titulación. </br></br>
+    el servicio social (En caso de maestría no es necesario) no tener adeudos, documentación completa y contar con pago colegiatura final. </br></br>
 
 
     `, 
@@ -92,7 +92,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación o pago del documento </br>
+    -Pago colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación 
     o equivalencia).`, 
     id: 'clicenciatura'
@@ -111,7 +111,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación o pago del documento </br>
+    -Colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o equivalencia).
         
     
@@ -129,7 +129,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación o pago del documento </br>
+    -Colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia, constancia de idioma inglés)
     `, 
     id: 'cdoctorado'
@@ -152,7 +152,7 @@ const infoTitulacion = [
         -100% de créditos en avance curricular </br>
         -Estatus de Egresado </br>
         -No tener adeudos </br>
-        -Pago de titulación </br>
+        -Colegiatura final</br>
         -Servicio social liberado </br>
         -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
@@ -175,7 +175,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación </br>
+    -Colegiatura final</br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o 
     equivalencia) Servicio social liberado.</br>
     
@@ -198,7 +198,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación </br>
+    -Colegiatura final </br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura  o dictamen en 
     caso de revalidación o equivalencia, constancia de idioma inglés)
     Para titulación directa promedio mínimo de 9.5.</br>
@@ -223,7 +223,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación </br>
+    -Colegiatura final</br>
     -Servicio social liberado </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
@@ -246,7 +246,7 @@ const infoTitulacion = [
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
     -No tener adeudos </br>
-    -Pago de titulación </br>
+    -Colegiatura final </br>
     -Servicio social liberado </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
     -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
@@ -270,7 +270,7 @@ const infoTitulacion = [
         -100% de créditos en avance curricular </br>
         -Estatus de Egresado </br>
         -No tener adeudos </br>
-        -Pago de titulación </br>
+        -Colegiatura final</br>
         -Servicio social liberado </br>
         -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
         -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
@@ -358,7 +358,7 @@ const bloqueImagenTexto = [
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, servicio social liberado, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, servicio social liberado, avance curricular al 100% (Con estatus de egresado) y pago colegiatura final.</br></br>`, 
     id: 'bttl'
     },
 
@@ -376,7 +376,7 @@ const bloqueImagenTexto = [
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, avance curricular al 100% (Con estatus de egresado) y pago de colegiatura final.</br></br>`, 
     id: 'bttm'
     },
     
@@ -394,7 +394,7 @@ const bloqueImagenTexto = [
     nivel superior y acreditado satisfactoriamente las 
     evaluaciones correspondientes y que, por lo tanto, posees los 
     conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, constancia de inglés, avance curricular al 100% (Con estatus de egresado) y pago de titulación.</br></br>`, 
+    Para obtenerlo debes tener tu expediente digital completo, constancia de inglés, avance curricular al 100% (Con estatus de egresado) y pago de colegiatura final.</br></br>`, 
     id: 'bttd'
     },
 

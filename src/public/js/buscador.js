@@ -32,7 +32,7 @@ const preguntasDF = [
     valor: 'onclick="selecNum(1)"', 
     id: '#ceecdpdt'},
 
-    {nombre: '¿Cuál es el costo del pago de titulación?', 
+    {nombre: '¿Cuál es el costo de la colegiatura final?', 
     valor: 'onclick="selecNum(1)"', 
     id: '#ctdetdt'},
 
