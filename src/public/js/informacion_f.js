@@ -60,14 +60,13 @@ const infoTitulacion = [
     1.-Certificado electrónico: tarda aproximadamente de 2 meses en obtenerse autenticado. </br></br>
 
     2.- Registro de título electrónico: después del envío del certificado electrónico autenticado, se gestiona 
-    el registro de su título electrónico ante la SEP, este trámite tarda aproximadamente 2 meses y a partir de 
+    el registro de su título electrónico ante la SEP, este trámite tarda aproximadamente 1 mes y a partir de 
     que se notifica que concluyó, el alumno puede tramitar la cédula profesional. </br></br>
     
     3. Expedición de constancia de título electrónico: una vez que concluye el registro del título, se comienza 
-    la gestión de la constancia de título electrónico la cual tarda un tiempo aproximado de 2 meses. </br></br>
+    la gestión de la constancia de título electrónico la cual tarda un tiempo aproximado de 1 mes. </br></br>
                               
-    4.- Expedición de representación gráfica (documento físico simbólico): Tarda un tiempo aproximado de 2 meses y 
-    va firmado por el Rector.</br></br>
+    4.- Expedición de representación gráfica (documento físico simbólico): Tarda un tiempo aproximado de 2 meses. </br></br>
     
     El alumno deberá contar con el 100% de los créditos académicos y estar en estatus de egresado, haber concluido y liberado 
     el servicio social (En caso de maestría no es necesario) no tener adeudos, documentación completa y contar con pago colegiatura final. </br></br>
@@ -142,10 +141,10 @@ const infoTitulacion = [
     Texto:`
         El proceso de titulación se divide en registro de título y título digital. </br></br>
                             
-        Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
+        Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
 
-        Título digital: demora 2 meses, se comparte en digital en archivo pdf. y xml </br></br>
+        Título digital: demora 1 mes, se comparte en digital en archivo pdf. y xml </br></br>
 
         Se deberán cubrir los siguientes requisitos:</br>
 
@@ -165,10 +164,10 @@ const infoTitulacion = [
     Texto:`
     El proceso de titulación se divide en registro de título y título digital</br></br>
                     
-    Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a partir de este 
+    Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
     
-    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -188,10 +187,10 @@ const infoTitulacion = [
     Texto:`
     El proceso de titulación se divide en registro de título y título digital</br></br>
                   
-    Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a partir de este 
+    Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
 
-    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -216,7 +215,7 @@ const infoTitulacion = [
     Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
     partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
 
-    Título digital: demora 4 meses, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -239,7 +238,7 @@ const infoTitulacion = [
     Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
     partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
 
-    Título digital: demora 4 meses, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -263,7 +262,7 @@ const infoTitulacion = [
         Registro de título: demora de 2 meses, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional </br></br>
     
-        Título digital: demora 4 meses, se comparte en digital en archivo pdf y xml </br></br>
+        Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
     
         Se deberán cubrir los siguientes requisitos:</br>
     
