@@ -144,7 +144,7 @@ const infoTitulacion = [
         Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
 
-        Título digital: demora 1 mes, se comparte en digital en archivo pdf. y xml </br></br>
+        Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml.</br></br>
 
         Se deberán cubrir los siguientes requisitos:</br>
 
