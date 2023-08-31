@@ -210,7 +210,6 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura LATAM', 
     Texto:`
-    El proceso de titulación se divide en registro de título y título digital </br></br>
   
     Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
@@ -230,7 +229,6 @@ const infoTitulacion = [
     {
     Titulo: 'Maestría', 
     Texto:`
-    El proceso de titulación se divide en registro de título y título digital </br></br>
 
     Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
@@ -251,7 +249,6 @@ const infoTitulacion = [
     {
         Titulo: 'Doctorado', 
         Texto:`
-        El proceso de titulación se divide en registro de título y título digital </br></br>
     
         Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
     
