@@ -57,7 +57,7 @@ const infoTitulacion = [
     Subtitulo: 'El proceso consta de:',   
     Texto: `
     
-    1.-Certificado electrónico: tarda aproximadamente de 2 meses en obtenerse autenticado. </br></br>
+    1.-Certificado electrónico: tarda aproximadamente 2 meses en obtenerse autenticado. </br></br>
 
     2.- Registro de título electrónico: después del envío del certificado electrónico autenticado, se gestiona 
     el registro de su título electrónico ante la SEP, este trámite tarda aproximadamente 1 mes y a partir de 
@@ -84,7 +84,7 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura', 
     Texto:`
-    El proceso de certificación demora de 2 meses y el documento se comparte en digital en archivo pdf y xml </br></br>
+    El proceso de certificación demora aproximadamente 2 meses y el documento se comparte en digital en archivo pdf y xml. </br></br>
                 
     Se deberán cubrir los siguientes requisitos: </br></br>
 
@@ -103,7 +103,7 @@ const infoTitulacion = [
     {
     Titulo: 'Maestría', 
     Texto:`
-    El proceso de certificación demora de 2 meses y el documento se comparte en digital en archivo pdf y xml </br></br>
+    El proceso de certificación demora aproximadamente 2 meses y el documento se comparte en digital en archivo pdf y xml. </br></br>
                 
     Se deberán cubrir los siguientes requisitos: </br></br>
 
@@ -121,7 +121,7 @@ const infoTitulacion = [
     {
     Titulo: 'Doctorado', 
     Texto:`
-    El proceso de certificación demora de 2 meses y el documento se comparte en digital en archivo pdf y xml </br></br>
+    El proceso de certificación demora aproximadamente 2 meses y el documento se comparte en digital en archivo pdf y xml. </br></br>
                 
     Se deberán cubrir los siguientes requisitos:</br></br>
     
@@ -141,10 +141,10 @@ const infoTitulacion = [
     Texto:`
         El proceso de titulación se divide en registro de título y título digital. </br></br>
                             
-        Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a
+        Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
 
-        Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml.</br></br>
+        Título digital: demora aproximadamente 1 mes, se comparte en digital en archivo pdf y xml.</br></br>
 
         Se deberán cubrir los siguientes requisitos:</br>
 
@@ -164,10 +164,10 @@ const infoTitulacion = [
     Texto:`
     El proceso de titulación se divide en registro de título y título digital</br></br>
                     
-    Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
+    Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
     
-    Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora aproximadamente 1 mes, se comparte en digital en archivo pdf y xml. </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -187,10 +187,10 @@ const infoTitulacion = [
     Texto:`
     El proceso de titulación se divide en registro de título y título digital</br></br>
                   
-    Registro de título: demora de 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
+    Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
 
-    Título digital: demora 1 mes, se comparte en digital en archivo pdf y xml </br></br>
+    Título digital: demora aproximadamente 1 mes, se comparte en digital en archivo pdf y xml. </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -210,8 +210,6 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura LATAM', 
     Texto:`
-  
-    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -230,7 +228,6 @@ const infoTitulacion = [
     Titulo: 'Maestría', 
     Texto:`
 
-    Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
 
     Se deberán cubrir los siguientes requisitos:</br>
 
@@ -249,8 +246,6 @@ const infoTitulacion = [
     {
         Titulo: 'Doctorado', 
         Texto:`
-    
-        Título digital: demora 2 meses, se comparte en digital en archivo pdf y xml </br></br>
     
         Se deberán cubrir los siguientes requisitos:</br>
     
