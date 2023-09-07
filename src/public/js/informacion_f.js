@@ -176,7 +176,7 @@ const infoTitulacion = [
     -No tener adeudos </br>
     -Colegiatura final</br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o 
-    equivalencia) Servicio social liberado.</br>
+    equivalencia)</br>
     
     `, 
     id: 'tmaestria'
@@ -217,7 +217,7 @@ const infoTitulacion = [
     -Estatus de Egresado </br>
     -No tener adeudos </br>
     -Colegiatura final</br>
-    -Servicio social liberado </br>
+    -Servicio social liberado en caso de revalidación</br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
     `, 
@@ -235,7 +235,6 @@ const infoTitulacion = [
     -Estatus de Egresado </br>
     -No tener adeudos </br>
     -Colegiatura final </br>
-    -Servicio social liberado </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
     -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
     
@@ -253,7 +252,6 @@ const infoTitulacion = [
         -Estatus de Egresado </br>
         -No tener adeudos </br>
         -Colegiatura final</br>
-        -Servicio social liberado </br>
         -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
         -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
         `, 
@@ -406,11 +404,11 @@ const bloqueImagenTexto = [
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
-    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 4 meses.
+    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
@@ -445,11 +443,11 @@ const bloqueImagenTexto = [
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
-    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 4 meses.
+    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
@@ -486,11 +484,11 @@ const bloqueImagenTexto = [
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
-    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 4 meses.
+    2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 4 meses.
+    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado:
     </br></br>
