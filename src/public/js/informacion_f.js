@@ -4,19 +4,19 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la certificación?', 
-    Texto: 'Es el proceso por medio del cual la UTEL expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos estudiantes que han cubierto el 100% de su avance curricular.', 
+    Texto: 'Es el proceso por medio del cual la Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos estudiantes que han cubierto el 100% de su avance curricular.', 
     id: '0'
     },
 
     {
     Titulo: '¿Qué es la titulación?', 
-    Texto: 'Es una distinción dada por UTEL, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar', 
+    Texto: 'Es una distinción dada por Utel, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar', 
     id: '1'
     },
 
     {
     Titulo: '¿Qué es la titulación LATAM?', 
-    Texto: 'Es una distinción dada por UTEL, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de UTEL cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar.', 
+    Texto: 'Es una distinción dada por Utel, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar.', 
     id: '2'
     },
 
@@ -47,7 +47,7 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la certificación?', 
-    Texto: 'Es el proceso por medio del cual la UTEL expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos estudiantes que han cubierto el 100% de su avance curricular.', 
+    Texto: 'Es el proceso por medio del cual la Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos estudiantes que han cubierto el 100% de su avance curricular.', 
     id: '4'
     },
 
@@ -508,7 +508,7 @@ const InfoAvisoRojo = [
     {
 
     Texto: `
-    Es importante aclarar que, si no se cuenta con un expediente digital en el archivo UTEL y no cumple con alguno de los estatutos mencionados, el proceso de 
+    Es importante aclarar que, si no se cuenta con un expediente digital en el archivo Utel y no cumple con alguno de los estatutos mencionados, el proceso de 
     elaboración de certificado digital es <b>DETENIDO</b>. Apegados al acuerdo 17/11/17 artículo 62 y 63 donde se indica que el área de Servicios Escolares es la responsable de la revisión física de la documentación de todo estudiante evitando y detectando así desviaciones que puedan tener un impacto.
     Si el Egresado cumple con todos los puntos antes mencionados el proceso continúa.    
     `,
