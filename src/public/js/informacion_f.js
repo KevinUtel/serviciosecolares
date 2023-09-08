@@ -410,7 +410,7 @@ const bloqueImagenTexto = [
     </br></br>
     4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
-    5.-Certificado de programa académico: Tiempo estimado:
+    5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
     6.-Envío internacional: 10 días a partir de que se cuente con la documentación elaborada.
     `, 
@@ -449,7 +449,7 @@ const bloqueImagenTexto = [
     </br></br>
     4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
-    5.-Certificado de programa académico: Tiempo estimado:
+    5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
     6.-Envío internacional: 10 días a partir de que se cuente con la documentación elaborada.
     </br></br>
@@ -490,7 +490,7 @@ const bloqueImagenTexto = [
     </br></br>
     4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
-    5.-Certificado de programa académico: Tiempo estimado:
+    5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
     6.-Envío internacional: 10 días a partir de que se cuente con la documentación elaborada.
     </br></br>

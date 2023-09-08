@@ -48,7 +48,7 @@ apartado();
 const botonCerti = document.getElementById("botoncerti");
 
 botonCerti.addEventListener("click", function(){
-    var numLocal = certi;
+    var numLocal = 1;
     localStorage.setItem('numLocal', JSON.stringify( numLocal))
 })
 
@@ -60,6 +60,7 @@ botontitu.addEventListener("click", function(){
 })
 
 function apartado(){
+
 var valorAlmacenado = JSON.parse(localStorage.getItem('numLocal'))
 switch(valorAlmacenado){
     case 1:
