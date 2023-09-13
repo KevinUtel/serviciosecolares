@@ -479,7 +479,7 @@ const bloqueImagenTexto = [
     `,
     idoh: 'offcanvasBottomLabelejemplo-tit-latam-lic',
     idc: 'carouseldoclatam',
-    Titulo:'Titulación licenciatura LATAM',
+    Titulo:'Titulación Doctorado LATAM',
     Texto: `
     <strong class="py-3 px-3"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
