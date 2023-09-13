@@ -1,19 +1,11 @@
 {{#if error}}
-    <div class="alert alert-danger" role="alert">
-        {{text}}
-
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
+    <div class="alert alert-danger m-3 border-0" role="alert">
+        {{error}}
     </div>
 {{/if}}
 
 {{#each errors}}
-    <div class="alert alert-danger" role="alert">
+    <div class="alert alert-danger m-3 border-0" role="alert">
         {{text}}
-
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-        </button>
     </div>
 {{/each}}
