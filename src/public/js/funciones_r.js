@@ -441,7 +441,7 @@ procesoTitNacional.forEach((cadaLi, i) => {
         procesoTitNacional[i].innerHTML = '';
         procesoTitNacional[i].innerHTML = `                              
         <br/>
-        <img class="img-proceso" src="img/procesot.png">
+        <img class="img-proceso" src="img/procesotit.png">
 
         <h5>Manuales</h5>
 
