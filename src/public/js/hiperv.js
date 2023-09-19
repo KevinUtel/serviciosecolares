@@ -1,3 +1,5 @@
+//Titulación
+
 const titulacionMenu = document.getElementById('menuTitulacion');
 const titulacionBloque = document.getElementById('boqueTitulacion');
 
@@ -7,11 +9,13 @@ const certificacionBloque = document.getElementById('bloqueCertificacion');
 const titulacionLatamMenu = document.getElementById('menuTitulacionLatam');
 const titulacionLatamBloque = document.getElementById('bloqueTitulacionLatam');
 
-const tituloIntMenu = document.getElementById('menuTituloInt');
-const tituloIntBloque = document.getElementById('bloqueTituloInt');
+const repgrafMenu = document.getElementById('menuRepGraf');
+const repgrafBloque = document.getElementById('bloqueRepGraf');
 
 const certificadoParMenu= document.getElementById('menuCertificadoPar');
-const certificadoparBloque = document.getElementById('boqueCertificadoPar');
+const certificadoParBloque = document.getElementById('boqueCertificadoPar');
+
+//Servicio social
 
 const regularMenu = document.getElementById('menuRegular');
 const regularBloque = document.getElementById('panelsStayOpen-collapseOne');
@@ -43,165 +47,177 @@ const costosSeBloque = document.getElementById('bloqueCostosSe');
 const preguntas_fSeMenu = document.getElementById('menuPreguntas_fSe');
 const preguntas_fSeBloque = document.getElementById('bloquePreguntas_fSe');
 
+
 apartado();
 
+//Titulación 
 const botonCerti = document.getElementById("botoncerti");
 
 botonCerti.addEventListener("click", function(){
-    var numLocal = 1;
-    localStorage.setItem('numLocal', JSON.stringify( numLocal))
-})
+    var numLocal = "certi";
+    localStorage.setItem('numLocal', JSON.stringify(numLocal))
+});
 
 const botontitu = document.getElementById("botontitu");
 
 botontitu.addEventListener("click", function(){
-    var numLocal = 2;
-    localStorage.setItem('numLocal', JSON.stringify( numLocal))
-})
+    var numLocal = "titu";
+    localStorage.setItem('numLocal', JSON.stringify(numLocal))
+});
+
+const botontitulatam = document.getElementById("botontitulatam");
+
+botontitulatam.addEventListener("click", function(){
+    var numLocal = "titulatam";
+    localStorage.setItem('numLocal', JSON.stringify(numLocal))
+});
+
+const botonrepgraf = document.getElementById("botonrepgraf");
+
+botonrepgraf.addEventListener("click", function(){
+    var numLocal = "repGraf";
+    localStorage.setItem('numLocal', JSON.stringify(numLocal))
+});
+
+const botoncertpar = document.getElementById("botoncertpar");
+
+botoncertpar.addEventListener("click", function(){
+    var numLocal = "cerpar";
+    localStorage.setItem('numLocal', JSON.stringify(numLocal))
+});
+
+//Convalidación
+
 
 function apartado(){
 
 var valorAlmacenado = JSON.parse(localStorage.getItem('numLocal'))
-switch(valorAlmacenado){
-    case 1:
+    switch(valorAlmacenado){
+    case "certi":
         localStorage.clear('numLocal');    
     break;
+
+    case "titu":
+        certificacionBloque.classList.remove('activo');
+        certificacionMenu.classList.remove('activo');
+        certificacionBloque.classList.add('noactivo');
+        certificacionMenu.classList.add('noactivo');
+
+        titulacionBloque.classList.remove('noactivo');
+        titulacionMenu.classList.remove('noactivo');
+        titulacionBloque.classList.add('activo');
+        titulacionMenu.classList.add('activo');
+
+        titulacionLatamBloque.classList.remove('activo');
+        titulacionLatamMenu.classList.remove('activo');
+        titulacionLatamBloque.classList.add('noactivo');
+        titulacionLatamMenu.classList.add('noactivo');
+
+        repgrafBloque.classList.remove("activo")
+        repgrafMenu.classList.remove("activo");
+        repgrafBloque.classList.add("noactivo")
+        repgrafMenu.classList.add("noactivo");
+        
+        certificadoParBloque.classList.remove("activo");
+        certificadoParMenu.classList.remove("activo");
+        certificadoParBloque.classList.add("noactivo");
+        certificadoParMenu.classList.add("noactivo");
+        
+        localStorage.clear('numLocal');        
+
+    break;
+
+    case "titulatam":
+        certificacionBloque.classList.remove('activo');
+        certificacionMenu.classList.remove('activo');
+        certificacionBloque.classList.add('noactivo');
+        certificacionMenu.classList.add('noactivo');
     
-    case 2:
-        certificacionBloque.classList.remove('activo')
-        certificacionMenu.classList.remove('activo')
-        certificacionBloque.classList.add('noactivo')
-        certificacionMenu.classList.add('noactivo')
-
-        titulacionBloque.classList.remove('noactivo')
-        titulacionMenu.classList.remove('noactivo')
-        titulacionBloque.classList.add('activo')
-        titulacionMenu.classList.add('activo')
-        localStorage.clear('numLocal');    
-               
-        
-    break;
-
-    case 3:
-        certificacionBloque.classList.remove('activo')
-        certificacionMenu.classList.remove('activo')
-        certificacionBloque.classList.add('noactivo')
-        certificacionMenu.classList.add('noactivo')
-
-        titulacionLatamBloque.classList.remove('noactivo')
-        titulacionLatamMenu.classList.remove('noactivo')
-        titulacionLatamBloque.classList.add('activo')
-        titulacionLatamMenu.classList.add('activo')
-        localStorage.clear('numLocal');       
-        
-    break;
-
-    case 4:
-        certificacionBloque.classList.remove('activo')
-        certificacionMenu.classList.remove('activo')
-        certificacionBloque.classList.add('noactivo')
-        certificacionMenu.classList.add('noactivo')
-
-        tituloIntBloque.classList.remove('noactivo')
-        tituloIntMenu.classList.remove('noactivo')
-        tituloIntBloque.classList.add('activo')
-        tituloIntMenu.classList.add('activo')
-        localStorage.clear('numLocal');       
-    break;
-
-    case 5:
-        certificacionBloque.classList.remove('activo')
-        certificacionMenu.classList.remove('activo')
-        certificacionBloque.classList.add('noactivo')
-        certificacionMenu.classList.add('noactivo')
-
-        certificadoparBloque.classList.remove('noactivo')
-        certificadoParMenu.classList.remove('noactivo')
-        certificadoparBloque.classList.add('activo')
-        certificadoParMenu.classList.add('activo')
-        localStorage.clear('numLocal'); 
-    break;
-
-    case 6:
-        regularMenu.classList.remove('collapsed')
-        regularBloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 7:
-        art91Menu.classList.remove('collapsed')
-        art91Bloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 8:
-        art52Menu.classList.remove('collapsed')
-        art52Bloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 9:
-        conCausaMenu.classList.remove('collapsed')
-        conCausaBloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 10:
-        coachMenu.classList.remove('collapsed')
-        coachBloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 11:
-        trabajoMenu.classList.remove('collapsed')
-        trabajoBloque.classList.add('show')
-        localStorage.clear('numLocal');    
-    break;
-
-    case 12:
-        
-        localStorage.clear('numLocal');
-    break;
+        titulacionBloque.classList.remove('activo');
+        titulacionMenu.classList.remove('activo');
+        titulacionBloque.classList.add('noactivo');
+        titulacionMenu.classList.add('noactivo');
     
-    case 13:
-        tiposIngresoSeBloque.classList.remove('activo')
-        tiposIngresoSeMenu.classList.remove('activo')
-        tiposIngresoSeBloque.classList.add('noactivo')
-        tiposIngresoSeMenu.classList.add('noactivo')
-
-        tramitesEscolaresBloque.classList.remove('noactivo')
-        tramitesEscolaresMenu.classList.remove('noactivo')
-        tramitesEscolaresBloque.classList.add('activo')
-        tramitesEscolaresMenu.classList.add('activo')
-        localStorage.clear('numLocal'); 
-    break;
+        titulacionLatamBloque.classList.remove('noactivo');
+        titulacionLatamMenu.classList.remove('noactivo');
+        titulacionLatamBloque.classList.add('activo');
+        titulacionLatamMenu.classList.add('activo');
+    
+        repgrafBloque.classList.remove("activo")
+        repgrafMenu.classList.remove("activo");
+        repgrafBloque.classList.add("noactivo")
+        repgrafMenu.classList.add("noactivo");
         
-    case 14:
-        tiposIngresoSeBloque.classList.remove('activo')
-        tiposIngresoSeMenu.classList.remove('activo')
-        tiposIngresoSeBloque.classList.add('noactivo')
-        tiposIngresoSeMenu.classList.add('noactivo')
+        certificadoParBloque.classList.remove("activo");
+        certificadoParMenu.classList.remove("activo");
+        certificadoParBloque.classList.add("noactivo");
+        certificadoParMenu.classList.add("noactivo");
+            
+        localStorage.clear('numLocal');   
 
-        costosSeBloque.classList.remove('noactivo')
-        costosSeMenu.classList.remove('noactivo')
-        costosSeBloque.classList.add('activo')
-        costosSeMenu.classList.add('activo')
-        localStorage.clear('numLocal'); 
     break;
 
-    case 15:
-        tiposIngresoSeBloque.classList.remove('activo')
-        tiposIngresoSeMenu.classList.remove('activo')
-        tiposIngresoSeBloque.classList.add('noactivo')
-        tiposIngresoSeMenu.classList.add('noactivo')
-
-        preguntas_fSeBloque.classList.remove('noactivo')
-        preguntas_fSeMenu.classList.remove('noactivo')
-        preguntas_fSeBloque.classList.add('activo')
-        preguntas_fSeMenu.classList.add('activo')
-        localStorage.clear('numLocal'); 
+    case "repGraf":
+        certificacionBloque.classList.remove('activo');
+        certificacionMenu.classList.remove('activo');
+        certificacionBloque.classList.add('noactivo');
+        certificacionMenu.classList.add('noactivo');
+    
+        titulacionBloque.classList.remove('activo');
+        titulacionMenu.classList.remove('activo');
+        titulacionBloque.classList.add('noactivo');
+        titulacionMenu.classList.add('noactivo');
+    
+        titulacionLatamBloque.classList.remove('activo');
+        titulacionLatamMenu.classList.remove('activo');
+        titulacionLatamBloque.classList.add('noactivo');
+        titulacionLatamMenu.classList.add('noactivo');
+    
+        repgrafBloque.classList.remove("noactivo")
+        repgrafMenu.classList.remove("noactivo");
+        repgrafBloque.classList.add("activo")
+        repgrafMenu.classList.add("activo");
+        
+        certificadoParBloque.classList.remove("activo");
+        certificadoParMenu.classList.remove("activo");
+        certificadoParBloque.classList.add("noactivo");
+        certificadoParMenu.classList.add("noactivo");
+            
+        localStorage.clear('numLocal');   
+      
     break;
-}
+
+    case "cerpar":
+        certificacionBloque.classList.remove('activo');
+        certificacionMenu.classList.remove('activo');
+        certificacionBloque.classList.add('noactivo');
+        certificacionMenu.classList.add('noactivo');
+    
+        titulacionBloque.classList.remove('activo');
+        titulacionMenu.classList.remove('activo');
+        titulacionBloque.classList.add('noactivo');
+        titulacionMenu.classList.add('noactivo');
+    
+        titulacionLatamBloque.classList.remove('activo');
+        titulacionLatamMenu.classList.remove('activo');
+        titulacionLatamBloque.classList.add('noactivo');
+        titulacionLatamMenu.classList.add('noactivo');
+    
+        repgrafBloque.classList.remove("activo")
+        repgrafMenu.classList.remove("activo");
+        repgrafBloque.classList.add("noactivo")
+        repgrafMenu.classList.add("noactivo");
+        
+        certificadoParBloque.classList.remove("noactivo");
+        certificadoParMenu.classList.remove("noactivo");
+        certificadoParBloque.classList.add("activo");
+        certificadoParMenu.classList.add("activo");
+            
+        localStorage.clear('numLocal');  
+    break;
+
+
+    }
 }
 
 
