@@ -271,16 +271,20 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-cer-lic',
     img: './img/titulacion/licenciatura/nacional/certificadolic.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-lic',
-    Titulo:'Certificación',
+    Titulo:'Certificado total de Licenciatura',
     Texto: `
     <strong class="py-3 px-3"> Características de la certificación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
-    requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
+    Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
-    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
+    El documento contiene:</br>   
+    Datos generales del egresado </br>   
+    Programa educativo</br>   
+    Número de asignaturas aprobadas. </br>   
+    Total de créditos que consta el programa educativo. </br>   
+    Periodo en el que aprobó las asignaturas.</br>   </br>   
 
-    Para obtenerlo debes tener tu expediente digital completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
-    
+
+    Para obtenerlo se debe tener el expediente digital completo, no contar con saldos pendientes y el pago del documento.
     `, 
     id: 'btcl'
     },
@@ -290,16 +294,22 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-cer-mae',
     img: 'img/titulacion/maestria/nacional/certificadomae.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-mae',
-    Titulo:'Certificación',
+    Titulo:'Certificado total de Maestría',
     Texto: `
     <strong class="py-3 px-3"> Características de la certificación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Maestría y que 
-    requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-
-    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
-
-    Para obtenerlo debes tener tu expediente digital completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
     
+    Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
+
+    El documento contiene:</br>   
+    Datos generales del egresado </br>   
+    Programa educativo</br>   
+    Número de asignaturas aprobadas. </br>   
+    Total de créditos que consta el programa educativo. </br>   
+    Periodo en el que aprobó las asignaturas.</br>   </br>   
+
+
+    Para obtenerlo se debe tener el expediente digital completo, no contar con saldos pendientes y el pago del documento.
+
     `, 
     id: 'btcm'
     },
@@ -309,16 +319,21 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-cer-doc',
     img: 'img/titulacion/doctorado/nacional/certificadodoc.png',
     idoh: 'offcanvasBottomLabelEjemplo-cer-doc',
-    Titulo:'Certificación',
+    Titulo:'Certificado total de Doctorado',
     Texto: `
     <strong class="py-3 px-3"> Características de la certificación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Doctorado y que 
-    requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
+    Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
-    El documento contiene todas las materias cursadas en el plan académico, las calificaciones de estas, y el promedio general, adicional tiene que contar con los datos generales del alumno y las firmas electrónicas correspondientes.</br></br>
+    El documento contiene:</br>   
+    Datos generales del egresado </br>   
+    Programa educativo</br>   
+    Número de asignaturas aprobadas. </br>   
+    Total de créditos que consta el programa educativo. </br>   
+    Periodo en el que aprobó las asignaturas.</br>   </br>   
 
-    Para obtenerlo debes tener tu expediente digital completo, no contar con saldos pendientes y el pago del documento cubierto.</br>        
-    
+
+    Para obtenerlo se debe tener el expediente digital completo, no contar con saldos pendientes y el pago del documento.
+
     `, 
     id: 'btcd'
     },
