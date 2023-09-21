@@ -351,13 +351,16 @@ const bloqueImagenTexto = [
     Titulo:'Titulación Licenciatura',
     Texto: `
     <strong class="py-3 px-3"> Características de la titulación</strong>
-    Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
-    requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
-    Un título profesional es un documento que avala que has cursado estudios de 
-    nivel superior y acreditado satisfactoriamente las 
-    evaluaciones correspondientes y que, por lo tanto, posees los 
-    conocimientos necesarios para practicar tu profesión.</br></br>
-    Para obtenerlo debes tener tu expediente digital completo, servicio social liberado, avance curricular al 100% (Con estatus de egresado) y pago colegiatura final.</br></br>`, 
+    Características del título electrónico <br/><br/>
+
+    Documento que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que requiere ser autenticado por la Secretaría de Educación Pública.<br/><br/>
+
+    El título profesional  avala que se ha  cursado estudios de nivel superior y acreditado satisfactoriamente las evaluaciones correspondientes. Por lo tanto se posee los conocimientos necesarios para practicar una  profesión.<br/><br/>
+
+    Para obtenerlo se debe tener expediente digital completo, servicio social liberado, avance curricular al 100% (con estatus de egresado) y pago de la colegiatura final.
+
+
+    `, 
     id: 'bttl'
     },
 
