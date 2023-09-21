@@ -153,13 +153,13 @@ ImagenYTexto.forEach((cadaLi, i) => {
                 </div>
                 
                 <!--Boddy-->
-                <h5 class="offcanvas-title" style="text-align: center;" id="${solicitaridoh()}">${solicitarTitulo()}</h5>
                 <div class="container card border border-0">
-                  <div class="row row-cols-1 row-cols-xl-2 row-cols-md-2">
-
-                    <!--Imagen ejemplo-->
-                    <div class="col">
-
+                <div class="row row-cols-1 row-cols-xl-2 row-cols-md-2">
+                
+                <!--Imagen ejemplo-->
+                <div class="col">
+                
+                      <h5 class="offcanvas-title" style="text-align: center;" id="${solicitaridoh()}">${solicitarTitulo()}</h5>
                       <img src="${solicitarimg()}" class="imagenes_ejemplo d-block w-100" alt="...">
                       
                     </div>

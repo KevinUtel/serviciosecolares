@@ -10,7 +10,11 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la titulación?', 
-    Texto: 'Es una distinción dada por Utel, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros estudiantes tienen derecho a recibir un título y la Institución realiza su registro correspondiente ante la Dirección General de Profesiones para que pueda tramitar su cédula profesional ya que es un trámite que solo el interesado puede realizar', 
+    Texto: `
+    Es una distinción dada por las instituciones educativas públicas y privadas , después de la terminación exitosa de algún programa de estudios.
+    <br/><br/>
+    Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación Pública (SEP). Por lo cual, al finalizar el programa de estudios, los alumnos tienen derecho a recibir un título. Utel realiza el registro de título correspondiente ante la Dirección General de Profesiones para que el egresado pueda tramitar la cédula profesional. Este es un trámite que solo el interesado puede realizar.
+    `, 
     id: '1'
     },
 
@@ -139,7 +143,7 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura', 
     Texto:`
-        El proceso de titulación se divide en registro de título y título digital. </br></br>
+     El proceso de titulación se divide ,en registro de título y expedición de constancia de autenticacion del titulo electrónico. </br></br>
                             
         Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
@@ -162,7 +166,7 @@ const infoTitulacion = [
     {
     Titulo: 'Maestría', 
     Texto:`
-    El proceso de titulación se divide en registro de título y título digital</br></br>
+    El proceso de titulación se divide ,en registro de título y expedición de constancia de autenticacion del titulo electrónico. </br></br>
                     
     Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
@@ -185,7 +189,7 @@ const infoTitulacion = [
     {
     Titulo: 'Doctorado', 
     Texto:`
-    El proceso de titulación se divide en registro de título y título digital</br></br>
+    El proceso de titulación se divide ,en registro de título y expedición de constancia de autenticacion del titulo electrónico.</br></br>
                   
     Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a partir de este 
     momento se puede iniciar el trámite de cédula profesional </br></br>
