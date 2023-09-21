@@ -523,9 +523,10 @@ const InfoAvisoRojo = [
     {
 
     Texto: `
-    Es importante aclarar que, si no se cuenta con un expediente digital en el archivo Utel y no cumple con alguno de los estatutos mencionados, el proceso de 
-    elaboración de certificado digital es <b>DETENIDO</b>. Apegados al acuerdo 17/11/17 artículo 62 y 63 donde se indica que el área de Servicios Escolares es la responsable de la revisión física de la documentación de todo estudiante evitando y detectando así desviaciones que puedan tener un impacto.
-    Si el Egresado cumple con todos los puntos antes mencionados el proceso continúa.    
+    
+    Es importante aclarar que si no se cuenta con un expediente digital en el archivo Utel y no se cumple con alguno de los estatutos mencionados, el proceso de elaboración de certificado digital es DETENIDO. Apegados al acuerdo 17/11/17 artículo 62 y 63 donde se indica que el área de Servicios Escolares es la responsable de la revisión física de la documentación de todo estudiante evitando y detectando así desviaciones que puedan tener un impacto.
+    <br/><br/>
+    Cabe destacar que si el egresado cumple con todos los puntos antes mencionados el proceso continúa.
     `,
     id: 'avisolic' 
     }

@@ -24,7 +24,7 @@ avisoRojo.forEach((cadaLi, i) => {
         avisoRojo[i].innerHTML = `                              
         <div class="border-3 card card-importante mx-3 mb-5 justify-content-center ">
           <div class="card-body">
-            <p class="card-text">
+            <p class="card-text" style="text-align: justify;">
             ${solicitarTexto()}
             </p>
           </div>
@@ -148,11 +148,12 @@ ImagenYTexto.forEach((cadaLi, i) => {
 
                 <!--Title-->
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="${solicitaridoh()}">${solicitarTitulo()}</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <h5 class="offcanvas-title" style="text-align: center;" id=""></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-
+                
                 <!--Boddy-->
+                <h5 class="offcanvas-title" style="text-align: center;" id="${solicitaridoh()}">${solicitarTitulo()}</h5>
                 <div class="container card border border-0">
                   <div class="row row-cols-1 row-cols-xl-2 row-cols-md-2">
 
