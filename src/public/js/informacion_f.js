@@ -4,7 +4,7 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la certificación?', 
-    Texto: 'Es el proceso por medio del cual la Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos estudiantes que han cubierto el 100% de su avance curricular.', 
+    Texto: 'Es el proceso por medio del cual la Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos alumnos que han cubierto el 100% de su avance curricular.', 
     id: '0'
     },
 
@@ -94,7 +94,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Pago colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación 
     o equivalencia).`, 
@@ -113,7 +113,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o equivalencia).
         
@@ -131,7 +131,7 @@ const infoTitulacion = [
     
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Colegiatura final o pago del documento </br>
     -Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia, constancia de idioma inglés)
     `, 
@@ -154,7 +154,7 @@ const infoTitulacion = [
 
         -100% de créditos en avance curricular </br>
         -Estatus de Egresado </br>
-        -No tener adeudos </br>
+        --No tener saldos pendientes </br>
         -Colegiatura final</br>
         -Servicio social liberado </br>
         -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
@@ -177,7 +177,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes</br>
     -Colegiatura final</br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o 
     equivalencia)</br>
@@ -200,7 +200,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Colegiatura final </br>
     -Documentación completa (acta de nacimiento, certificado de licenciatura  o dictamen en 
     caso de revalidación o equivalencia, constancia de idioma inglés)
@@ -219,7 +219,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Colegiatura final</br>
     -Servicio social liberado en caso de revalidación</br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
@@ -237,7 +237,7 @@ const infoTitulacion = [
 
     -100% de créditos en avance curricular </br>
     -Estatus de Egresado </br>
-    -No tener adeudos </br>
+    -No tener saldos pendientes </br>
     -Colegiatura final </br>
     -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
     -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
@@ -247,20 +247,20 @@ const infoTitulacion = [
     },
 
     {
-        Titulo: 'Doctorado', 
-        Texto:`
-    
-        Se deberán cubrir los siguientes requisitos:</br>
-    
-        -100% de créditos en avance curricular </br>
-        -Estatus de Egresado </br>
-        -No tener adeudos </br>
-        -Colegiatura final</br>
-        -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
-        -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
-        `, 
-        id: 'tlatamdoctorado'
-        },
+    Titulo: 'Doctorado', 
+    Texto:`
+
+    Se deberán cubrir los siguientes requisitos:</br>
+
+    -100% de créditos en avance curricular </br>
+    -Estatus de Egresado </br>
+    -No tener saldos pendientes </br>
+    -Colegiatura final</br>
+    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
+    -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
+    `, 
+    id: 'tlatamdoctorado'
+    },
     
 
 
