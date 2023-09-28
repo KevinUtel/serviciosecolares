@@ -24,7 +24,7 @@ avisoRojo.forEach((cadaLi, i) => {
         avisoRojo[i].innerHTML = `                              
         <div class="border-3 card card-importante mx-3 mb-5 justify-content-center ">
           <div class="card-body">
-            <p class="card-text" style="text-align: justify;">
+            <p class="card-text" style="text-align: justify; text-align: justify;">
             ${solicitarTexto()}
             </p>
           </div>
@@ -165,7 +165,7 @@ ImagenYTexto.forEach((cadaLi, i) => {
                     </div>
                     
                     <!--Texto descripción-->
-                    <div class="col card border border-0">
+                    <div class="col card border border-0" style="text-align: justify;">
 
                     ${solicitarTexto()}
 
@@ -332,7 +332,7 @@ ImagenTextoCarrusel.forEach((cadaLi, i) => {
                         </div>
                         <!--Proceso y botones-->
                         <div class="col card border border-0">
-                          <p>
+                          <p style="text-align: justify;">
                           ${Texto()}
                           <p>
 
@@ -391,7 +391,7 @@ tituloYTexto.forEach((cadaLi, i) => {
             <div class="border border-0 card mt-1">
             <div class="card-body">
               <h5 class="card-title" >${solicitarTitulo()}</h5>
-              <p class="card-text">
+              <p class="card-text" style="text-align: justify;">
               ${solicitarTexto()}
               </p>
             </div>
@@ -448,9 +448,9 @@ procesoTitNacional.forEach((cadaLi, i) => {
 
         <div class="row py-3">
           
-          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank" >INICIO DE TRAMITE FLOKZU</a>
-          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-latam.pdf" target="_blank">INICIO DE TRAMITE FLOKZU LATAM</a>
-          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/cedula.pdf" target="_blank">TRAMITE DE CÉDULA PROFESIONAL</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-nacional.pdf" target="_blank" >Inicio de trámite flokzu</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/manual-tit-latam.pdf" target="_blank">Inicio de trámite flokzu LATAM</a>
+          <a class="Botonmanual col py-3 px-3" href="docs/manualtit/cedula.pdf" target="_blank">Trámite de cédula profesional</a>
         </div>
         `           
     }

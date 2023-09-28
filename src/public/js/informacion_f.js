@@ -73,7 +73,7 @@ const infoTitulacion = [
     4.- Expedición de representación gráfica (documento físico simbólico): Tarda un tiempo aproximado de 2 meses. </br></br>
     
     El alumno deberá contar con el 100% de los créditos académicos y estar en estatus de egresado, haber concluido y liberado 
-    el servicio social (En caso de maestría no es necesario) no tener adeudos, documentación completa y contar con pago colegiatura final. </br></br>
+    el servicio social (En caso de maestría no es necesario) no tener saldos pendientes, documentación completa y contar con pago colegiatura final. </br></br>
 
 
     `, 
@@ -300,7 +300,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-mae',
     Titulo:'Certificado total de Maestría',
     Texto: `
-    <strong class="py-3 px-3"> Características de la certificación</strong>
+    <strong class="py-3 px-3"> Características del certificado</strong>
     
     Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
@@ -325,7 +325,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-doc',
     Titulo:'Certificado total de Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Características de la certificación</strong>
+    <strong class="py-3 px-3"> Características del certificado</strong>
     Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
     El documento contiene:</br>   
@@ -350,8 +350,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
     Titulo:'Titulación Licenciatura',
     Texto: `
-    <strong class="py-3 px-3"> Características de la titulación</strong>
-    Características del título electrónico <br/><br/>
+    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
 
     Documento que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que requiere ser autenticado por la Secretaría de Educación Pública.<br/><br/>
 
@@ -371,7 +370,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
     Titulo:'Titulación Maestria',
     Texto: `
-    <strong class="py-3 px-3"> Características de la titulación</strong>
+    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
@@ -389,7 +388,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
     Titulo:'Titulación Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Características de la titulación</strong>
+    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
