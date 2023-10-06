@@ -4,7 +4,7 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la certificación?', 
-    Texto: 'Es el proceso por medio del cual la Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos alumnos que han cubierto el 100% de su avance curricular.', 
+    Texto: 'Es el proceso por medio del cual Utel expide el certificado de término de estudios correspondiente a los programas de licenciatura, maestría y doctorado, de aquellos alumnos que han cubierto el 100% de su avance curricular.', 
     id: '0'
     },
 
@@ -277,7 +277,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-lic',
     Titulo:'Certificado total de Licenciatura',
     Texto: `
-    <strong class="py-3 px-3"> Características de la certificación</strong>
+    <strong class="py-3 px-3" style="text-align: center;">Características del certificado</strong>
     Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
     El documento contiene:</br>   
@@ -300,7 +300,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-mae',
     Titulo:'Certificado total de Maestría',
     Texto: `
-    <strong class="py-3 px-3"> Características del certificado</strong>
+    <strong class="py-3 px-3" style="text-align: center;">Características del certificado</strong>
     
     Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
@@ -325,7 +325,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-cer-doc',
     Titulo:'Certificado total de Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Características del certificado</strong>
+    <strong class="py-3 px-3" style="text-align: center;"> Características del certificado</strong>
     Es un documento oficial que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios y que requiere ser autenticado por la Secretaría de Educación Pública.</br>   </br>   
 
     El documento contiene:</br>   
@@ -350,7 +350,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
     Titulo:'Titulación Licenciatura',
     Texto: `
-    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
+    <strong class="py-3 px-3"style="text-align: center;"> Características del titulo electrónico</strong>
 
     Documento que se otorga al alumno que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que requiere ser autenticado por la Secretaría de Educación Pública.<br/><br/>
 
@@ -370,7 +370,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
     Titulo:'Titulación Maestria',
     Texto: `
-    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
+    <strong class="py-3 px-3" style="text-align: center;"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
@@ -388,7 +388,7 @@ const bloqueImagenTexto = [
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
     Titulo:'Titulación Doctorado',
     Texto: `
-    <strong class="py-3 px-3"> Características del titulo electrónico</strong>
+    <strong class="py-3 px-3" style="text-align: center;"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
     requiere ser autenticado por la Secretaría de Educación Pública. </br></br>
     Un título profesional es un documento que avala que has cursado estudios de 
@@ -422,7 +422,8 @@ const bloqueImagenTexto = [
     idc: 'carouselliclatam',
     Titulo:'Titulación licenciatura LATAM',
     Texto: `
-    <strong class="py-3 px-3"> Proceso</strong></br></br>
+    <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong>
+    
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
@@ -461,7 +462,7 @@ const bloqueImagenTexto = [
     idc: 'carouselmaelatam',
     Titulo:'Titulación Maestría LATAM<',
     Texto: `
-    <strong class="py-3 px-3"> Proceso</strong></br></br>
+    <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
@@ -502,7 +503,7 @@ const bloqueImagenTexto = [
     idc: 'carouseldoclatam',
     Titulo:'Titulación Doctorado LATAM',
     Texto: `
-    <strong class="py-3 px-3"> Proceso</strong></br></br>
+    <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong></br></br>
     1.-Certificado electrónico 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.

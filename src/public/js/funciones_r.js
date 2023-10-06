@@ -331,11 +331,10 @@ ImagenTextoCarrusel.forEach((cadaLi, i) => {
                           
                         </div>
                         <!--Proceso y botones-->
-                        <div class="col card border border-0">
-                          <p style="text-align: justify;">
+                        <div class="col card border border-0"style="text-align: justify;">
+                        
                           ${Texto()}
-                          <p>
-
+                          
                           <div class="row py-3">
                             <a class="Botonmanual col py-3 px-3" href="latam">Convalidación</a>
                             <a class="Botonmanual col py-3 px-3" href="recoleccion">Documentación LATAM</a>
