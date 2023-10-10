@@ -424,13 +424,13 @@ const bloqueImagenTexto = [
     Texto: `
     <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong>
     
-    1.-Certificado electrónico 2 meses en obtenerse autenticado.
+    1.-Certificado electrónico: 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
+    4.-Expedición de representación gráfica de titulo Utel (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
@@ -463,13 +463,13 @@ const bloqueImagenTexto = [
     Titulo:'Titulación Maestría LATAM<',
     Texto: `
     <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong></br></br>
-    1.-Certificado electrónico 2 meses en obtenerse autenticado.
+    1.-Certificado electrónico: 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
+    4.-Expedición de representación gráfica de titulo Utel (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
@@ -504,13 +504,13 @@ const bloqueImagenTexto = [
     Titulo:'Titulación Doctorado LATAM',
     Texto: `
     <strong class="py-3 px-3" style="text-align: center;"> Proceso</strong></br></br>
-    1.-Certificado electrónico 2 meses en obtenerse autenticado.
+    1.-Certificado electrónico: 2 meses en obtenerse autenticado.
     </br></br>
     2.-Expedición de constancia de título electrónico: Tiempo aproximado de 2 meses.
     </br></br>
     3.-Apostilla de título digital: el proceso demora de 60 a 90 días hábiles.
     </br></br>
-    4.-Expedición de representación gráfica (documento físico simbólico): Tiempo aproximado de 2 meses.
+    4.-Expedición de representación gráfica de titulo Utel (documento físico simbólico): Tiempo aproximado de 2 meses.
     </br></br>
     5.-Certificado de programa académico: Tiempo estimado: 30 días hábiles.
     </br></br>
