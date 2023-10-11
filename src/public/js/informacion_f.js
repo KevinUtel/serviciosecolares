@@ -39,7 +39,7 @@ const infoTitulacion = [
     },
 
     {
-    Titulo: '¿Qué es la representación gráfica?', 
+    Titulo: '¿Qué es la representación gráfica de titulo Utel?', 
     Texto: `
     
     La representación gráfica es un documento emitido en formato físico de un título, este título únicamente tiene validez simbólica, contiene datos del grado académico y del egresado.
