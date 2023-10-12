@@ -143,7 +143,7 @@ const infoTitulacion = [
     {
     Titulo: 'Licenciatura', 
     Texto:`
-     El proceso de titulación se divide ,en registro de título y expedición de constancia de autenticacion del titulo electrónico. </br></br>
+     El proceso de titulación se divide, en registro de título y expedición de constancia de autenticacion del titulo electrónico. </br></br>
                             
         Registro de título: demora aproximadamente 1 mes, se notifica por correo electrónico una vez que concluye y a
         partir de este momento se puede iniciar el trámite de cédula profesional. </br></br>
@@ -348,7 +348,7 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-lic',
     img: 'img/titulacion/licenciatura/nacional/titulolic.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-lic',
-    Titulo:'Titulación Licenciatura',
+    Titulo:'Titulo de Licenciatura',
     Texto: `
     <strong class="py-3 px-3"style="text-align: center;"> Características del titulo electrónico</strong>
 
@@ -368,7 +368,7 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-mae',
     img: 'img/titulacion/maestria/nacional/titulomae.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-mae',
-    Titulo:'Titulación Maestria',
+    Titulo:'Titulo de Maestria',
     Texto: `
     <strong class="py-3 px-3" style="text-align: center;"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
@@ -386,7 +386,7 @@ const bloqueImagenTexto = [
     ido: 'ejemplo-tit-doc',
     img: 'img/titulacion/doctorado/nacional/titulodoc.png',
     idoh: 'offcanvasBottomLabelEjemplo-tit-doc',
-    Titulo:'Titulación Doctorado',
+    Titulo:'Titulo de Doctorado',
     Texto: `
     <strong class="py-3 px-3" style="text-align: center;"> Características del titulo electrónico</strong>
     Documento que se otorga al estudiante que haya acreditado el 100% de los créditos del plan de estudios de Licenciatura y que 
