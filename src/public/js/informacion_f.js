@@ -154,7 +154,7 @@ const infoTitulacion = [
 
         -100% de créditos en avance curricular </br>
         -Estatus de Egresado </br>
-        --No tener saldos pendientes </br>
+        -No tener saldos pendientes </br>
         -Colegiatura final</br>
         -Servicio social liberado </br>
         -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
