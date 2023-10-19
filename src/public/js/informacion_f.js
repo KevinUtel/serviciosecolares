@@ -92,11 +92,11 @@ const infoTitulacion = [
                 
     Se deberán cubrir los siguientes requisitos: </br></br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Pago colegiatura final o pago del documento </br>
-    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación 
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Pago colegiatura final o pago del documento </br>
+    ●Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación 
     o equivalencia).`, 
     id: 'clicenciatura'
 
@@ -111,11 +111,11 @@ const infoTitulacion = [
                 
     Se deberán cubrir los siguientes requisitos: </br></br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final o pago del documento </br>
-    -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o equivalencia).
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final o pago del documento </br>
+    ●Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o equivalencia).
         
     
     `, 
@@ -129,11 +129,11 @@ const infoTitulacion = [
                 
     Se deberán cubrir los siguientes requisitos:</br></br>
     
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final o pago del documento </br>
-    -Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia, constancia de idioma inglés)
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final o pago del documento </br>
+    ● Documentación completa (acta de nacimiento, certificado de maestría o dictamen en caso de revalidación o equivalencia, constancia de idioma inglés)
     `, 
     id: 'cdoctorado'
     },
@@ -152,12 +152,12 @@ const infoTitulacion = [
 
         Se deberán cubrir los siguientes requisitos:</br>
 
-        -100% de créditos en avance curricular </br>
-        -Estatus de Egresado </br>
-        -No tener saldos pendientes </br>
-        -Colegiatura final</br>
-        -Servicio social liberado </br>
-        -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
+        ● 100% de créditos en avance curricular </br>
+        ● Estatus de Egresado </br>
+        ● No tener saldos pendientes </br>
+        ● Colegiatura final</br>
+        ● Servicio social liberado </br>
+        ●Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
         `, 
     id: 'tlicenciatura'
@@ -175,11 +175,11 @@ const infoTitulacion = [
 
     Se deberán cubrir los siguientes requisitos:</br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes</br>
-    -Colegiatura final</br>
-    -Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o 
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes</br>
+    ● Colegiatura final</br>
+    ●Documentación completa (acta de nacimiento, certificado de licenciatura o dictamen en caso de revalidación o 
     equivalencia)</br>
     
     `, 
@@ -198,11 +198,11 @@ const infoTitulacion = [
 
     Se deberán cubrir los siguientes requisitos:</br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final </br>
-    -Documentación completa (acta de nacimiento, certificado de licenciatura  o dictamen en 
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final </br>
+    ●Documentación completa (acta de nacimiento, certificado de licenciatura  o dictamen en 
     caso de revalidación o equivalencia, constancia de idioma inglés)
     Para titulación directa promedio mínimo de 9.5.</br>
     `, 
@@ -217,12 +217,12 @@ const infoTitulacion = [
 
     Se deberán cubrir los siguientes requisitos:</br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final</br>
-    -Servicio social liberado en caso de revalidación</br>
-    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final</br>
+    ● Servicio social liberado en caso de revalidación</br>
+    ●Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).
 
     `, 
     id: 'tlatamlicenciatura'
@@ -235,12 +235,12 @@ const infoTitulacion = [
 
     Se deberán cubrir los siguientes requisitos:</br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final </br>
-    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
-    -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final </br>
+    ●Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
+    ● Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
     
     `, 
     id: 'tlatammaestria'
@@ -252,12 +252,12 @@ const infoTitulacion = [
 
     Se deberán cubrir los siguientes requisitos:</br>
 
-    -100% de créditos en avance curricular </br>
-    -Estatus de Egresado </br>
-    -No tener saldos pendientes </br>
-    -Colegiatura final</br>
-    -Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
-    -Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
+    ● 100% de créditos en avance curricular </br>
+    ● Estatus de Egresado </br>
+    ● No tener saldos pendientes </br>
+    ● Colegiatura final</br>
+    ●Documentación completa (acta de nacimiento, certificado de bachillerato o dictamen en caso de revalidación o equivalencia).</br>
+    ● Trabajo de grado (En caso de no contar con él, no se continúa con la titulación)
     `, 
     id: 'tlatamdoctorado'
     },
