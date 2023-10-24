@@ -10,8 +10,8 @@ const pfControlDocumentalBloque = document.getElementById('bloquePreguntasFrecue
 const pfFrecuentesEscolaresMenu = document.getElementById('menuPreguntasFrecuentesEscolares');
 const pfFrecuentesEscolaresBloque = document.getElementById('bloquePreguntasFrecuentesEscolares');
 
-const pfTutoriaMenu = document.getElementById('menuPreguntasFrecuentesTutoria');
-const pfTutoriaBloque = document.getElementById('bloquePreguntasFrecuentesTutoria');
+const pfExitoMenu = document.getElementById('menuPreguntasFrecuentesExito');
+const pfExitoBloque = document.getElementById('bloquePreguntasFrecuentesExito');
 
 
 
@@ -40,7 +40,6 @@ const preguntasDF = [
     valor: 'onclick="selecNum(1)"', 
     id: '#qhsuanqrtdmam'},
     
-
   
     //Servicio social 
 
@@ -126,9 +125,69 @@ const preguntasDF = [
     id: '#SSUTEL'},
 
     //Control documental
+    {nombre: '¿Qué es una dictaminación de un documento?', 
+    valor: 'onclick="selecNum(3)"', 
+    id: '#qeuddud'},
+
+    {nombre: '¿Qué documentos requiren legalización?', 
+    valor: 'onclick="selecNum(3)"', 
+    id: '#qdrl'},
+
+    {nombre: '¿Dónde puede legalizar un documento?', 
+    valor: 'onclick="selecNum(3)"', 
+    id: '#dplud'},
+
+    {nombre: '¿Otra persona puede recoger mi documentación?', 
+    valor: 'onclick="selecNum(3)"', 
+    id: '#opprmd'},
+
     {nombre: '¿Qué hacer si se identifica un CURP duplicado?', 
     valor: 'onclick="selecNum(3)"', 
     id: '#qhssiucd'},
+
+    //Escolares
+
+    {nombre: 'Constancia de estudios', 
+    valor: 'onclick="selecNum(4)"', 
+    id: '#conses'},
+
+    {nombre: 'Documentos para revalidación', 
+    valor: 'onclick="selecNum(4)"', 
+    id: '#docrev'},
+
+    {nombre: '¿Se puede agregar a una constancia de termino algo referente a la titulación?', 
+    valor: 'onclick="selecNum(4)"', 
+    id: '#spaaucdtaralt'},
+
+    {nombre: 'Alumno no recibe documento solicitado', 
+    valor: 'onclick="selecNum(4)"', 
+    id: '#anrds'},
+
+    {nombre: 'Se puede solicitar un documento en físico', 
+    valor: 'onclick="selecNum(4)"', 
+    id: '#spsudenf'},
+
+
+    //Éxito estudiantil
+    {nombre: '¿Cómo realizo un cambio de Licenciatura?', 
+    valor: 'onclick="selecNum(5)"', 
+    id: '#crucdl'},
+
+    {nombre: '¿Cómo puedo ver el avance curricular?', 
+    valor: 'onclick="selecNum(5)"', 
+    id: '#cpveac'},
+
+    {nombre: 'Requisitos de la jornada Super intensiva para Licenciatura', 
+    valor: 'onclick="selecNum(5)"', 
+    id: '#rdljsipl'},
+
+    {nombre: '¿Cómo ingreso al Sistema de Información Universitaria (SIU)?', 
+    valor: 'onclick="selecNum(5)"', 
+    id: '#ciasdiu'},
+
+    {nombre: 'Pago de incorporación SEP', 
+    valor: 'onclick="selecNum(5)"', 
+    id: '#pdis'},
 
  
     ]
@@ -175,8 +234,35 @@ const preguntasDF = [
         
         switch(Num){
             case 1:
-                formulario.value = "";
-                resultado.innerHTML = '';
+
+            pfServicioSocialMenu.classList.remove('activo')
+            pfServicioSocialBloque.classList.remove('activo')
+            pfServicioSocialMenu.classList.add('noactivo')
+            pfServicioSocialBloque.classList.add('noactivo')
+
+            pfControlDocumentalBloque.classList.remove('activo')
+            pfControlDocumentalMenu.classList.remove('activo')
+            pfControlDocumentalBloque.classList.add('noactivo')
+            pfControlDocumentalMenu.classList.add('noactivo')
+             
+            pfFrecuentesEscolaresBloque.classList.remove('activo')
+            pfFrecuentesEscolaresMenu.classList.remove('activo')
+            pfFrecuentesEscolaresBloque.classList.add('noactivo')
+            pfFrecuentesEscolaresMenu.classList.add('noactivo')
+
+            pfExitoBloque.classList.remove('activo')
+            pfExitoMenu.classList.remove('activo')
+            pfExitoBloque.classList.add('noactivo')
+            pfExitoMenu.classList.add('noactivo')
+    
+            pfTitulacionMenu.classList.remove('noactivo')
+            pfTulacionBloque.classList.remove('noactivo')
+            pfTitulacionMenu.classList.add('activo')
+            pfTulacionBloque.classList.add('activo')
+
+            formulario.value = "";
+            resultado.innerHTML = '';
+
             break;
             
             case 2:
@@ -189,6 +275,16 @@ const preguntasDF = [
                 pfControlDocumentalMenu.classList.remove('activo')
                 pfControlDocumentalBloque.classList.add('noactivo')
                 pfControlDocumentalMenu.classList.add('noactivo')
+                 
+                pfFrecuentesEscolaresBloque.classList.remove('activo')
+                pfFrecuentesEscolaresMenu.classList.remove('activo')
+                pfFrecuentesEscolaresBloque.classList.add('noactivo')
+                pfFrecuentesEscolaresMenu.classList.add('noactivo')
+
+                pfExitoBloque.classList.remove('activo')
+                pfExitoMenu.classList.remove('activo')
+                pfExitoBloque.classList.add('noactivo')
+                pfExitoMenu.classList.add('noactivo')
         
                 pfServicioSocialMenu.classList.remove('noactivo')
                 pfServicioSocialBloque.classList.remove('noactivo')
@@ -209,15 +305,29 @@ const preguntasDF = [
                 pfServicioSocialBloque.classList.remove('activo')
                 pfServicioSocialMenu.classList.add('noactivo')
                 pfServicioSocialBloque.classList.add('noactivo')
-        
+                 
+                pfFrecuentesEscolaresBloque.classList.remove('activo')
+                pfFrecuentesEscolaresMenu.classList.remove('activo')
+                pfFrecuentesEscolaresBloque.classList.add('noactivo')
+                pfFrecuentesEscolaresMenu.classList.add('noactivo')
+
+                pfExitoBloque.classList.remove('activo')
+                pfExitoMenu.classList.remove('activo')
+                pfExitoBloque.classList.add('noactivo')
+                pfExitoMenu.classList.add('noactivo')
+
                 pfControlDocumentalBloque.classList.remove('noactivo')
                 pfControlDocumentalMenu.classList.remove('noactivo')
                 pfControlDocumentalBloque.classList.add('activo')
                 pfControlDocumentalMenu.classList.add('activo')
+        
+                
                 formulario.value = "";
                 resultado.innerHTML = '';
+            break;    
         
             case 4:
+
                 pfTitulacionMenu.classList.remove('activo')
                 pfTulacionBloque.classList.remove('activo')
                 pfTitulacionMenu.classList.add('noactivo')
@@ -227,11 +337,16 @@ const preguntasDF = [
                 pfServicioSocialBloque.classList.remove('activo')
                 pfServicioSocialMenu.classList.add('noactivo')
                 pfServicioSocialBloque.classList.add('noactivo')
-        
+                 
                 pfControlDocumentalBloque.classList.remove('activo')
                 pfControlDocumentalMenu.classList.remove('activo')
                 pfControlDocumentalBloque.classList.add('noactivo')
                 pfControlDocumentalMenu.classList.add('noactivo')
+
+                pfExitoBloque.classList.remove('activo')
+                pfExitoMenu.classList.remove('activo')
+                pfExitoBloque.classList.add('noactivo')
+                pfExitoMenu.classList.add('noactivo')
 
                 pfFrecuentesEscolaresBloque.classList.remove('noactivo')
                 pfFrecuentesEscolaresMenu.classList.remove('noactivo')
@@ -243,6 +358,33 @@ const preguntasDF = [
             break;
         
             case 5:
+
+                pfTitulacionMenu.classList.remove('activo')
+                pfTulacionBloque.classList.remove('activo')
+                pfTitulacionMenu.classList.add('noactivo')
+                pfTulacionBloque.classList.add('noactivo')
+
+                pfServicioSocialMenu.classList.remove('activo')
+                pfServicioSocialBloque.classList.remove('activo')
+                pfServicioSocialMenu.classList.add('noactivo')
+                pfServicioSocialBloque.classList.add('noactivo')
+                 
+                pfControlDocumentalBloque.classList.remove('activo')
+                pfControlDocumentalMenu.classList.remove('activo')
+                pfControlDocumentalBloque.classList.add('noactivo')
+                pfControlDocumentalMenu.classList.add('noactivo')
+
+                pfFrecuentesEscolaresBloque.classList.remove('activo')
+                pfFrecuentesEscolaresMenu.classList.remove('activo')
+                pfFrecuentesEscolaresBloque.classList.add('noactivo')
+                pfFrecuentesEscolaresMenu.classList.add('noactivo')
+
+                pfExitoBloque.classList.remove('noactivo')
+                pfExitoMenu.classList.remove('noactivo')
+                pfExitoBloque.classList.add('activo')
+                pfExitoMenu.classList.add('activo')
+
+            
                 formulario.value = "";
                 resultado.innerHTML = '';   
             break;
