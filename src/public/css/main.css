@@ -77,6 +77,10 @@ body {
   
   }
   
+  .accordion-buttone{
+    background-color: #64cc33;
+  }
+
   .accordion-button:hover {
     background-color: #a8e063;
     color: white;
