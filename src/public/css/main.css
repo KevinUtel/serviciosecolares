@@ -78,11 +78,20 @@ body {
   }
   
   .accordion-buttone{
-    background-color: #bdf7a3;
+    background-color: #99f36f;
+  }
+
+  .accordion-buttone2{
+    background-color: #affa8c;
+  }
+
+  .accordion-buttone3{
+    background-color: #c9ffb0;
+    
   }
 
   .accordion-button:hover {
-    background-color: #a8e063;
+    background-color: #99f36f;
     color: white;
   }
   .accordion-button:not(.collapsed){
