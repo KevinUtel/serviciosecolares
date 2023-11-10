@@ -91,7 +91,7 @@ body {
   }
 
   .accordion-button:hover {
-    background-color: #99f36f;
+    background-color: #66d134;
     color: white;
   }
   .accordion-button:not(.collapsed){
