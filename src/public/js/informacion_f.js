@@ -20,7 +20,7 @@ const infoTitulacion = [
 
     {
     Titulo: '¿Qué es la titulación LATAM?', 
-    Texto: 'Es una distinción dada por Utel, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros alumnos studiantes tienen derecho a recibir un título.', 
+    Texto: 'Es una distinción dada por Utel, después de la terminación exitosa de algún programa de estudios.</br> Todos los programas (licenciatura, maestría, doctorado) de Utel cuentan con el registro correspondiente ante la Secretaría de Educación (SEP) por lo cual al finalizar nuestros alumnos estudiantes tienen derecho a recibir un título.', 
     id: '2'
     },
 
