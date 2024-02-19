@@ -1,106 +1,35 @@
-const cardconster = document.getElementById('conster');
-const cardCartPasant = document.getElementById('cartapas');
-const cardHistAca = document.getElementById('historialA');
-const cardEquivalencia = document.getElementById('equivalencia');
-const cardRevalidacion = document.getElementById('credencial');
-const cardTitInter = document.getElementById('tituloint');
-const cardDiplomaMaster = document.getElementById('diplomaMaster');
+const elementosTramite = [
+    'conster',
+    'cartapas',
+    'historialA',
+    'equivalencia',
+    'credencial',
+    'tituloint',
+    'diplomaMaster'
+];
 
-const UtelHCostos =document.getElementById('UtelHCostos');
-const UtelLCostos =document.getElementById('UtelLCostos');
+const elementosCostos = [
+    'UtelHCostos',
+    'UtelLCostos'
+];
 
-
-
-   
-function mostrarTramite(x){
-    var menu = x;
-    switch(menu){
-        case 1:
-        cardCartPasant.style.display = 'none';
-        cardHistAca.style.display = 'none'
-        cardEquivalencia.style.display = 'none';
-        cardRevalidacion.style.display = 'none';
-        cardTitInter.style.display = 'none';
-        cardconster.style.display = 'block';
-
-        break;
-       
-        case 2:
-            cardconster.style.display = 'none';
-            cardHistAca.style.display = 'none'            
-            cardEquivalencia.style.display = 'none';
-            cardRevalidacion.style.display = 'none';
-            cardTitInter.style.display = 'none';
-            cardCartPasant.style.display = 'block';
-        break;
-
-        case 3:
-            
-            cardconster.style.display = 'none';
-            cardCartPasant.style.display = 'none';
-            cardEquivalencia.style.display = 'none';
-            cardRevalidacion.style.display = 'none';
-            cardTitInter.style.display = 'none';
-            cardHistAca.style.display = 'block';
-        break;
-
-        case 4:
-            cardconster.style.display = 'none';
-            cardCartPasant.style.display = 'none';
-            cardHistAca.style.display = 'none'
-            cardRevalidacion.style.display = 'none';
-            cardTitInter.style.display = 'none';
-            cardEquivalencia.style.display = 'block';
-
-        break;
-
-        case 5:
-            cardconster.style.display = 'none';
-            cardCartPasant.style.display = 'none';
-            cardHistAca.style.display = 'none'
-            cardEquivalencia.style.display = 'none';
-            cardTitInter.style.display = 'none';
-            cardRevalidacion.style.display = 'block';
-        break;
-
-        case 6:
-            cardconster.style.display = 'none';
-            cardCartPasant.style.display = 'none';
-            cardHistAca.style.display = 'none'
-            cardEquivalencia.style.display = 'none';
-            cardRevalidacion.style.display = 'none';
-            cardDiplomaMaster.style.display = 'none';
-            cardTitInter.style.display = 'block';
-        break;
-
-        case 7:
-            cardconster.style.display = 'none';
-            cardCartPasant.style.display = 'none';
-            cardHistAca.style.display = 'none'
-            cardEquivalencia.style.display = 'none';
-            cardRevalidacion.style.display = 'none';
-            cardTitInter.style.display = 'none';
-            cardDiplomaMaster.style.display = 'block';
-        break;
-       
-    }
-
+function mostrarTramite(x) {
+    elementosTramite.forEach((elemento, index) => {
+        const card = document.getElementById(elemento);
+        if (index + 1 === x) {
+            card.style.display = 'block';
+        } else {
+            card.style.display = 'none';
+        }
+    });
 }
 
-function mostrarCosto(x){
-    var menu = x;
-    switch(menu){
-        case 1:
-        UtelHCostos.style.display = 'none';
-        UtelLCostos.style.display = 'block';
-
-        break;
-       
-        case 2:
-        UtelLCostos.style.display = 'none';
-        UtelHCostos.style.display = 'block';
-        break;
-       
+function mostrarCosto(x) {
+    if (x === 1) {
+        document.getElementById('UtelHCostos').style.display = 'none';
+        document.getElementById('UtelLCostos').style.display = 'block';
+    } else if (x === 2) {
+        document.getElementById('UtelLCostos').style.display = 'none';
+        document.getElementById('UtelHCostos').style.display = 'block';
     }
-
 }

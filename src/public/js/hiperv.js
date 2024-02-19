@@ -88,138 +88,35 @@ botoncertpar.addEventListener("click", function(){
 
 //Convalidación
 
+function apartado() {
+    const valorAlmacenado = JSON.parse(localStorage.getItem('numLocal'));
+    const clasesNoActivas = ['noactivo'];
+    const clasesActivas = ['activo'];
 
-function apartado(){
+    const elementos = {
+        'certi': [],
+        'titu': [['certificacion', 'titulacion']],
+        'titulatam': [['certificacion', 'titulacionLatam']],
+        'repGraf': [['certificacion', 'titulacion', 'repgraf']],
+        'cerpar': [['certificacion', 'titulacion', 'certificadoPar']]
+    };
 
-var valorAlmacenado = JSON.parse(localStorage.getItem('numLocal'))
-    switch(valorAlmacenado){
-    case "certi":
-        localStorage.clear('numLocal');    
-    break;
+    if (valorAlmacenado) {
+        elementos[valorAlmacenado].forEach(seccion => {
+            seccion.forEach(item => {
+                const menuElemento = document.getElementById(`menu${item}`);
+                const bloqueElemento = document.getElementById(`bloque${item}`);
+                clasesActivas.forEach(clase => {
+                    menuElemento.classList.remove(clase);
+                    bloqueElemento.classList.remove(clase);
+                });
+                clasesNoActivas.forEach(clase => {
+                    menuElemento.classList.add(clase);
+                    bloqueElemento.classList.add(clase);
+                });
+            });
+        });
 
-    case "titu":
-        certificacionBloque.classList.remove('activo');
-        certificacionMenu.classList.remove('activo');
-        certificacionBloque.classList.add('noactivo');
-        certificacionMenu.classList.add('noactivo');
-
-        titulacionBloque.classList.remove('noactivo');
-        titulacionMenu.classList.remove('noactivo');
-        titulacionBloque.classList.add('activo');
-        titulacionMenu.classList.add('activo');
-
-        titulacionLatamBloque.classList.remove('activo');
-        titulacionLatamMenu.classList.remove('activo');
-        titulacionLatamBloque.classList.add('noactivo');
-        titulacionLatamMenu.classList.add('noactivo');
-
-        repgrafBloque.classList.remove("activo")
-        repgrafMenu.classList.remove("activo");
-        repgrafBloque.classList.add("noactivo")
-        repgrafMenu.classList.add("noactivo");
-        
-        certificadoParBloque.classList.remove("activo");
-        certificadoParMenu.classList.remove("activo");
-        certificadoParBloque.classList.add("noactivo");
-        certificadoParMenu.classList.add("noactivo");
-        
-        localStorage.clear('numLocal');        
-
-    break;
-
-    case "titulatam":
-        certificacionBloque.classList.remove('activo');
-        certificacionMenu.classList.remove('activo');
-        certificacionBloque.classList.add('noactivo');
-        certificacionMenu.classList.add('noactivo');
-    
-        titulacionBloque.classList.remove('activo');
-        titulacionMenu.classList.remove('activo');
-        titulacionBloque.classList.add('noactivo');
-        titulacionMenu.classList.add('noactivo');
-    
-        titulacionLatamBloque.classList.remove('noactivo');
-        titulacionLatamMenu.classList.remove('noactivo');
-        titulacionLatamBloque.classList.add('activo');
-        titulacionLatamMenu.classList.add('activo');
-    
-        repgrafBloque.classList.remove("activo")
-        repgrafMenu.classList.remove("activo");
-        repgrafBloque.classList.add("noactivo")
-        repgrafMenu.classList.add("noactivo");
-        
-        certificadoParBloque.classList.remove("activo");
-        certificadoParMenu.classList.remove("activo");
-        certificadoParBloque.classList.add("noactivo");
-        certificadoParMenu.classList.add("noactivo");
-            
-        localStorage.clear('numLocal');   
-
-    break;
-
-    case "repGraf":
-        certificacionBloque.classList.remove('activo');
-        certificacionMenu.classList.remove('activo');
-        certificacionBloque.classList.add('noactivo');
-        certificacionMenu.classList.add('noactivo');
-    
-        titulacionBloque.classList.remove('activo');
-        titulacionMenu.classList.remove('activo');
-        titulacionBloque.classList.add('noactivo');
-        titulacionMenu.classList.add('noactivo');
-    
-        titulacionLatamBloque.classList.remove('activo');
-        titulacionLatamMenu.classList.remove('activo');
-        titulacionLatamBloque.classList.add('noactivo');
-        titulacionLatamMenu.classList.add('noactivo');
-    
-        repgrafBloque.classList.remove("noactivo")
-        repgrafMenu.classList.remove("noactivo");
-        repgrafBloque.classList.add("activo")
-        repgrafMenu.classList.add("activo");
-        
-        certificadoParBloque.classList.remove("activo");
-        certificadoParMenu.classList.remove("activo");
-        certificadoParBloque.classList.add("noactivo");
-        certificadoParMenu.classList.add("noactivo");
-            
-        localStorage.clear('numLocal');   
-      
-    break;
-
-    case "cerpar":
-        certificacionBloque.classList.remove('activo');
-        certificacionMenu.classList.remove('activo');
-        certificacionBloque.classList.add('noactivo');
-        certificacionMenu.classList.add('noactivo');
-    
-        titulacionBloque.classList.remove('activo');
-        titulacionMenu.classList.remove('activo');
-        titulacionBloque.classList.add('noactivo');
-        titulacionMenu.classList.add('noactivo');
-    
-        titulacionLatamBloque.classList.remove('activo');
-        titulacionLatamMenu.classList.remove('activo');
-        titulacionLatamBloque.classList.add('noactivo');
-        titulacionLatamMenu.classList.add('noactivo');
-    
-        repgrafBloque.classList.remove("activo")
-        repgrafMenu.classList.remove("activo");
-        repgrafBloque.classList.add("noactivo")
-        repgrafMenu.classList.add("noactivo");
-        
-        certificadoParBloque.classList.remove("noactivo");
-        certificadoParMenu.classList.remove("noactivo");
-        certificadoParBloque.classList.add("activo");
-        certificadoParMenu.classList.add("activo");
-            
-        localStorage.clear('numLocal');  
-    break;
-
-
+        localStorage.clear('numLocal');
     }
 }
-
-
-
-
