@@ -1,3 +1,14 @@
+<!-- Modal para la imagen ampliada -->
+<div class="modal fade imagen-ampliada" id="imagenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-g"> 
+    <div class="modal-content">
+      <div class="modal-body">
+        <img src="img/recoleccion/guia.PNG" class="img-fluid" alt="Imagen Ampliada">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container rounded-3 py-3 bg-white">
 
     <h1 class="text-center" id="certificacion">Control documental</h1>
@@ -5,26 +16,26 @@
       <ul class="ul container">
         <div class="row text-center">
           <div class="col">
-            <li class="li activo">Documentación Utel</li>
+            <li class="li activo">Recolección de documentos</li>
           </div>
           <div class="col">
-            <li class="li">Documentación tipos de ingreso</li>
-          </div>
-          <div class="col">
-            <li class="li">Legalización</li>
+            <li class="li">Archivo</li>
           </div>
           <div class="col">
             <li class="li">Dictaminación</li>
           </div>
           <div class="col">
-            <li class="li">Procesos</li>
+            <li class="li">Correspondecia escolar</li>
+          </div>
+          <div class="col">
+            <li class="li">Alianzas</li>
           </div>
         </div>
         
       </ul>
       <div class="subcontenedor">
 
-        <!--Documentación UTEL-->
+        <!--Documentación Utel-->
         <div class="bloque activo" id="bloqueDocUtel">
           <div class="card border-0 py-3 px-3" style="text-align: justify;">
 
@@ -71,6 +82,7 @@
           <div>
             <div class="accordion" id="accordionPanelsStayOpenExample">
               <div class="">
+
                 <!--Documentos mexicanos-->
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -1033,70 +1045,11 @@
                   </div>
                 </div>
 
-                <!--Documentos Alianzas-->
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingAlianzas">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                      data-bs-target="#panelsStayOpen-collapseAlianzas" aria-expanded="false"
-                      aria-controls="panelsStayOpen-collapseAlianzas">
-                      Documentación para alumnos Alianzas
-                    </button>
-                  </h2>
-
-                  <div id="panelsStayOpen-collapseAlianzas" class="accordion-collapse collapse"
-                    aria-labelledby="panelsStayOpen-headingAlianzas">
-                    <div class="accordion-body">
-
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
 
-          <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
-            <div class="col">
-              <div class="card border-0 mb-3">
-                <div class="row g-0">
-
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      
-                      <h5 class="card-title text-center">
-                      Administración de Archivo
-                      </h5>
-
-                      <p>
-
-                        El equipo de Archivo se encarga de la validación física y la correcta integración, registro, resguardo y control de la documentación que conforma el expediente del estudiante de forma física en Utel.<br/>
-                        <br/>
-
-                        Funciones que realiza:<br/>
-
-                        ● Recepción y Validación de documentos físico en SIU<br/>
-                        ● Escaneo de documentos físicos<br/>
-                        ● Préstamo y devoluciones de documentos físicos<br/>
-                        ● Recepción y envío de documentos a las alianzas ÚNICA, UNAG, UVE
-
-                      </p>
-
-                      <h5 class="card-title text-center">
-                      Responsable.
-                      </h5>
-
-                      <p>
-                      Maricela García Rosales <br/>
-                      mgarciar@utel.edu.mx
-                      </p>
-                    </div>
-                  </div>
-
-                  <div class="col-md-4">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           
           <div>
             <div class="card border-0 py-3 px-3" >
@@ -1109,10 +1062,65 @@
           </div>
         </div>
 
-        <!--Tipos de ingreso-->
+        <!--Archivo-->
         <div class="bloque" id="bloqueTiposiIngreso">
           <div class="border border-0 card mt-1">
 
+            <h4><b>Archivo</b></h4>
+
+            <p style="text-align: justify;">
+             El equipo de Archivo se encarga de la validación física y la correcta integración, registro, resguardo y control de la documentación que conforma el expediente del estudiante de forma física en Utel.
+            <br/><br/>
+              Funciones que realiza:<br/>
+              ● Recepción y Validación de documentos físico en SIU<br/>
+              ● Escaneo de documentos físicos<br/>
+              ● Préstamo y devoluciones de documentos físicos<br/>
+              ● Recepción y envío de documentos a las alianzas ÚNICA, UNAG, UVE
+            </P>
+            
+            <h5><b>Proceso de devolución:</b></h5>
+
+            <p style="text-align: justify;">
+            El procedimiento de devolución comienza cuando un estudiante solicita la recuperación de los documentos que previamente entregó a UTEL. 
+            <br/><br/>
+            Para asegurar una gestión eficaz, se verifica en el Sistema Integral Universitario (SIU) la validación de los documentos solicitados.<br/>
+            
+            ● Se requiere que los documentos tengan un estado definido (baja definitiva o egresado). Una vez confirmada esta información,<br/>
+            ● El asesor brinda detalles sobre el proceso de devolución de documentos.<br/>
+            ● El estudiante puede elegir entre enviar una guía para la recolección en su domicilio, si así lo prefiere, o acudir personalmente.<br/>
+            En ambos casos, el asesor debe registrar la solicitud correspondiente en Flokzu.
+            </P>
+
+            <h5><b>Opciones de entrega de préstamo de documento físico o devolución de documento físico</b></h5>
+
+            <p style="text-align: justify;">
+            ● Asistirás de forma presencial<br/>
+            En caso de que desees asistir de forma presencial, te atenderemos de lunes a viernes de 9:00 am a 5:00 pm en nuestras instalaciones en UTEL, ubicadas en la Calle Calz. de la Naranja 159, Alce Blanco, 53370 Naucalpan de Juárez, Méx.
+            <br/><br/>
+            ● Asiste tercera persona<br/>
+            La tercera persona deberá traer consigo una copia de su INE, una copia del INE del alumno y una carta poder con firma autógrafa para poder entregar los documentos.
+            <br/><br/>
+            ● Requieres envío a domicilio
+            Si prefieres el envío por paquetería, te recomendamos contratar un servicio de mensajería de tu elección. Por favor, asegúrate de incluir tus datos como remitente y dirigir el paquete a Josue Moises Pacheco como destinatario. La dirección completa es: Calle Calz. de la Naranja 159, Alce Blanco, 53370 Naucalpan de Juárez, Méx. (Oficinas, piso 1)
+            La guía deberá mandarla al gestor que le brinde el seguimiento.
+            Ejemplo de Guías:
+            </P>
+
+            <!-- Imagen que se agranda al hacer clic -->
+            <div class="container mt-5">
+              <div class="row row-cols-xl-1 row-cols-xl-4 row-cols-md-4">
+                <div class="col">
+                  <img src="img/recoleccion/guia.PNG" class="img-fluid" alt="Imagen" data-bs-toggle="modal" data-bs-target="#imagenModal">
+                </div>
+                <div class="col">
+                  <img src="img/recoleccion/guia.PNG" class="img-fluid" alt="Imagen" data-bs-toggle="modal" data-bs-target="#imagenModal">
+                </div>
+                
+              </div>
+            </div>
+
+
+            <!--
             <div class="card border-0 py-3 px-3" >
               <h4><b>¿Que es el tipo de Ingreso?</b></h4></br>
 
@@ -1122,9 +1130,7 @@
             </div>
 
             <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
-
-
-              <!--Regular-->
+              
               <div class="col">
                 <div class="card border-0 mb-3">
                   <div class="row g-0">
@@ -1180,9 +1186,7 @@
                   </div>
                 </div>
               </div>
-
-
-              <!--Equivalencia-->
+              
               <div class="col">
                 <div class="card border-0 mb-3">
                   <div class="row g-0">
@@ -1243,7 +1247,6 @@
                 </div>
               </div>
 
-              <!--Revalidación-->
               <div class="col">
                 <div class="card border-0 mb-3">
 
@@ -1313,8 +1316,6 @@
                   </div>
                 </div>
               </div>
-
-              <!--Dictamen técnico-->
               <div class="col">
                 <div class="card border-0 mb-3">
 
@@ -1384,266 +1385,386 @@
               </div>
 
             </div>
-          </div>
 
-        </div>
+            <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
+              <div class="col">
+                <div class="card border-0 mb-3">
+                  <div class="row g-0">
 
-        <!--Legalización-->
-        <div class="bloque" id="bloqueLegalizacion">
-
-          <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
-            <div class="col">
-              <div class="card border-0 mb-3">
-                <div class="row g-0">
-
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title text-center">¿Qué es la legalización?</h5>
-                      <p class="card-text" style="text-align: justify;">
-                        Es el trámite que consiste en autenticar las firmas que contiene el certificado de estudios, este trámite se lleva a cabo en oficinas de gobierno del estado donde se emitió el documento.
-                      </p>
-
-                      <h5 class="card-title text-center">¿Qué documentos requieren de legalización?</h5>
-
-
-                      <p class="card-text">
-
-                        Los documentos que NO cuenten con alguno de estos requerimientos:</br>
-                      <ul>
-
-                        <li>
-                          La leyenda de "Este documento es válido en toda la República Mexicana y no requiere tramites
-                          adicionales de legalización"
-                        </li>
-                        <li>
-                          Los documentos que tengan escrito correspondiente al Artículo 60 de la Ley General de
-                          Educación. Los estudios realizados dentro del sistema educativo nacional tendrán validez en
-                          toda la República.
-                        </li>
-                        <li>
-                          Los documentos que tengan el sello del poder ejecutivo
-                        </li>
-                      </ul>
-                      </p>
-                      <h5 class="card-title text-center">¿Qué instituciones no requieren de legalización? </h5>
-                      <p class="card-text">
-                        Los documentos que NO cuenten con alguno de estos requerimientos:</br>
-                      <ul>
-                        <li>
-                          UNAM
-                        </li>
-                        <li>
-                          IPN
-                        </li>
-                        <li>
-                          UAM
-                        </li>
-                      </ul>
-                      </p>
-                    </div>
-
-                    <div class="border-3 card card-importante mx-3 mb-5">
+                    <div class="col-md-8">
                       <div class="card-body">
-                        <strong class="">Importante</strong>
-                        <p class="card-text" style="text-align: justify;">
-                          Es importante resaltar que los documentos que solicitamos ya no son requeridos para legalizar
-                          en caso de ingresos regulares, solo aplica para
-                          certificados parciales para trámites de equivalencia; en caso de que se requiera la
-                          legalización se le indica al alumno.
+                        
+                        <h5 class="card-title text-center">
+                        Administración de Archivo
+                        </h5>
+
+                        <p>
+
+                          El equipo de Archivo se encarga de la validación física y la correcta integración, registro, resguardo y control de la documentación que conforma el expediente del estudiante de forma física en Utel.<br/>
+                          <br/>
+
+                          Funciones que realiza:<br/>
+
+                          ● Recepción y Validación de documentos físico en SIU<br/>
+                          ● Escaneo de documentos físicos<br/>
+                          ● Préstamo y devoluciones de documentos físicos<br/>
+                          ● Recepción y envío de documentos a las alianzas ÚNICA, UNAG, UVE
+
+                        </p>
+
+                        <h5 class="card-title text-center">
+                        Responsable.
+                        </h5>
+
+                        <p>
+                        Maricela García Rosales <br/>
+                        mgarciar@utel.edu.mx
                         </p>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <img loading="lazy" style="width:  300px" src="img/Lega.png ">
+
+                    <div class="col-md-4">
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+
+            -->
+
           </div>
+
         </div>
 
         <!--Dictaminación-->
+        <div class="bloque" id="bloqueLegalizacion">
+
+          <div class="card border-0 mb-3">
+              <div class="row g-0">
+
+                <h4><b>¿Qué es la dictaminación?</b></h4>
+
+                <p style="text-align: justify;">
+                  Proceso institucional para corroborar que los elementos de forma y validez del certificado de estudios del alumno cumplan con los lineamientos establecidos para su registro, integración y resguardo.
+                  <br/><br/>
+                  Para realizar este proceso es importante que los documentos se encuentren escaneados legibles, que se visualicen las 4 esquinas, completos,  que estén todas las hojas que integran el Certificado de Estudios, siempre por ambos lados. 
+                  <br/><br/>
+                  Si los documentos digitales no son ilegibles se rechazan y se piden escaneos correctos. Apoyándonos con el área de Recolección 
+                </P>
+                
+                <h5><b>Proceso</b></h5>
+
+                <p style="text-align: justify;">
+                  ● Se revisan y analizan formatos, estructura, logos, sellos, firmas, papel, folios, materias, promedios, duración de los estudios, claves de centro de trabajo, lectura de QR y se verifica información en las ligas oficiales. 
+                  <br/><br/>
+                  ● Si toda la información del documento es correcta se realiza la Dictaminación (proceso institucional interno), aplica desde el inicio para los alumnos de ingreso regular o dictamen técnico. 
+                  <br/><br/>
+                  ● En caso de detectar alguna inconsistencia después de haber agotado los recursos se solicita la Dictaminación externa (DAPO) con el fin de que la Autoridad Educativa ratifique la validez del antecedente académico. 
+                  <br/><br/>
+                   NOTA: En el caso de las equivalencias y revalidaciones se realiza la dictaminación hasta contar el Dictamen emitido por SEP.
+                  <br/><br/>
+                  ●En los 4 tipos de ingreso (regular, dictamen técnico, equivalencia y revalidación) debe estar el Certificado de estudios como dictaminado para que se inicie su proceso de titulación.
+
+                </P>
+                <div class="table-responsive">
+                  <table class="table tabla-verde">
+                    <thead>
+                      <tr>
+                        <th>Flokzu</th>
+                        <th>Significado</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>ESPERA DE DICTAMINACIÓN DE DOC</td>
+                        <td>La Autoridad Educativa está haciendo la revisión</td>
+                      </tr>
+                      <tr>
+                        <td>ESPERA REPLICA/ACLARACIÓN</td>
+                        <td>Cuando ya le notificamos al alumno y estamos en espera de la réplica</td>
+                      </tr>
+                      <tr>
+                        <td>FINALIZADO APLICADO</td>
+                        <td>Ya se aplicó la Baja</td>
+                      </tr>
+                      <tr>
+                        <td>CANCELADO/RECHAZADO POR VALIDACIÓN EXTERNA</td>
+                        <td>Cuando la autoridad determinó que el documento es auténtico</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card border-0 mb-3 py-2" style="display: block;">
+
+                          <h4 class="text-center" >Aviso para el alumno</h4>
+                          
+                          <img class="mx-auto d-block img-fluid" src="img/Recoleccion/infoalumnos.PNG">
+                          
+                        </div>  
+
+                
+
+
+                <!--
+                <div class="col-md-8">
+                  <div class="card-body">
+
+                    <h5 class="card-title text-center">¿Qué es la legalización?</h5>
+                    <p class="card-text" style="text-align: justify;">
+                      Es el trámite que consiste en autenticar las firmas que contiene el certificado de estudios, este trámite se lleva a cabo en oficinas de gobierno del estado donde se emitió el documento.
+                    </p>
+
+                    <h5 class="card-title text-center">¿Qué documentos requieren de legalización?</h5>
+
+
+                    <p class="card-text">
+
+                      Los documentos que NO cuenten con alguno de estos requerimientos:</br>
+                    <ul>
+
+                      <li>
+                        La leyenda de "Este documento es válido en toda la República Mexicana y no requiere tramites
+                        adicionales de legalización"
+                      </li>
+                      <li>
+                        Los documentos que tengan escrito correspondiente al Artículo 60 de la Ley General de
+                        Educación. Los estudios realizados dentro del sistema educativo nacional tendrán validez en
+                        toda la República.
+                      </li>
+                      <li>
+                        Los documentos que tengan el sello del poder ejecutivo
+                      </li>
+                    </ul>
+                    </p>
+                    <h5 class="card-title text-center">¿Qué instituciones no requieren de legalización? </h5>
+                    <p class="card-text">
+                      Los documentos que NO cuenten con alguno de estos requerimientos:</br>
+                    <ul>
+                      <li>
+                        UNAM
+                      </li>
+                      <li>
+                        IPN
+                      </li>
+                      <li>
+                        UAM
+                      </li>
+                    </ul>
+                    </p>
+                  </div>
+
+                  <div class="border-3 card card-importante mx-3 mb-5">
+                    <div class="card-body">
+                      <strong class="">Importante</strong>
+                      <p class="card-text" style="text-align: justify;">
+                        Es importante resaltar que los documentos que solicitamos ya no son requeridos para legalizar
+                        en caso de ingresos regulares, solo aplica para
+                        certificados parciales para trámites de equivalencia; en caso de que se requiera la
+                        legalización se le indica al alumno.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <img loading="lazy" style="width:  300px" src="img/Lega.png ">
+                </div>
+                -->
+              </div>
+            </div>
+        </div>
+
+        <!--Correspondecia escolar-->
         <div class="bloque" id="bloqueArchivo">
 
           <div class="card border-0 py-3 px-3" > 
 
-          <h4><b>¿Qué es la dictaminación?</b></h4>
-          
-          <p style="text-align: justify;">
-            Proceso institucional para corroborar que los elementos de forma y validez del certificado de estudios del alumno cumplan con los lineamientos establecidos para su registro, integración y resguardo.
-            <br/><br/>
-            Para realizar este proceso es importante que los documentos se encuentren escaneados legibles, que se visualicen las 4 esquinas, completos,  que estén todas las hojas que integran el Certificado de Estudios, siempre por ambos lados. 
-            <br/><br/>
-            Si los documentos digitales no son ilegibles se rechazan y se piden escaneos correctos. Apoyándonos con el área de Recolección 
+            <h4><b>Correspondecia escolar</b></h4>
 
-          </P>
+            <p style="text-align: justify;">
+              El área de correspondencia escolar lleva a su cargo dos procesos:
+            </P>
 
-          <h4 class="text-center"><b>Proceso</b></h4>
+            <h5><b>Envío de documentos</b></h4>
 
-          <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
-            <div class="col">
-              <div class="card border-0 mb-3" >
-                  <div class="row g-0">
+            <p style="text-align: justify;">
+              Se encarga de gestionar el envío de paquetes con documentos emitidos por Utel dirigidos a alumnos, ex alumnos y egresados. En este sentido, se asegura la entrega adecuada de los paquetes y documentos, para atender las siguientes solicitudes:<br/>
+              
+              <br/>
+              
+              Devolución de documentos por egreso <br/>
+              ● Requiere previa confirmación de datos de envío<br/>
+              ● Proceso de certificación y titulación finalizado<br/>
+              ● Proceso de conformación de expediente finalizado<br/>
 
-                    
+              <br/>
 
-                    <div class="col-lg-5">
-                      <img class="mx-auto d-block img-fluid" src="img/Recoleccion/dicdocs.png">
+              Documentos físicos emitidos por el área de servicios escolares <br/>
+              (Constancias, credenciales, Historial académico, Avance currícular, Carta pasante, Certificado parcial, Credencial exalumno)<br/>
+              ● Requiere de solicitud previa<br/>
+
+              <br/>
+
+              Préstamo y devolución de documentos por baja <br/>
+              ● Requiere solicitud previa<br/>
+              ● Requiere que el alumno/ex alumno proporcione la guía de paquetería<br/>
+            </P>
+
+            <div class="border-3 card card-aviso mx-3 mb-3 justify-content-center ">
+              <div class="card-body">
+                <p class="card-text">
+                  En envíos donde la guía es generada por UTEL, es importante proporcionar la  información actualizada del domicilio y datos de contacto (teléfono y correo electrónico).
+                </p>
+              </div>
+            </div>
+
+            <h5><b>Recepción de paquetería</b></h4>
+
+            <p style="text-align: justify;">
+              Se encarga de recibir todos los documentos que los alumnos  envían a través de paquetería, dirigidos a la Dirección de servicios escolares y regulación. Principalmente para  la conformación de expediente escolar u otros fines. Una vez identificada el área de destino, se procede con la entrega al personal correspondiente.
+            </P>
+            
+            <!--
+              <h4><b>¿Qué es la dictaminación?</b></h4>
+            
+            <p style="text-align: justify;">
+              Proceso institucional para corroborar que los elementos de forma y validez del certificado de estudios del alumno cumplan con los lineamientos establecidos para su registro, integración y resguardo.
+              <br/><br/>
+              Para realizar este proceso es importante que los documentos se encuentren escaneados legibles, que se visualicen las 4 esquinas, completos,  que estén todas las hojas que integran el Certificado de Estudios, siempre por ambos lados. 
+              <br/><br/>
+              Si los documentos digitales no son ilegibles se rechazan y se piden escaneos correctos. Apoyándonos con el área de Recolección 
+
+            </P>
+
+            <h4 class="text-center"><b>Proceso</b></h4>
+
+            <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
+              <div class="col">
+                <div class="card border-0 mb-3" >
+                    <div class="row g-0">
+
+                      <div class="col-lg-5">
+                        <img class="mx-auto d-block img-fluid" src="img/Recoleccion/dicdocs.png">                        
+                      </div>
+
+                      <div class="col-lg-7">
+                        <div class="card border-0 mb-3 py-2" style="display: block;">
+
+                          <h4 class="text-center" >Constancia de autenticidad</h4>
+                          
+                          <img class="mx-auto d-block img-fluid" src="img/Recoleccion/acuse-autenticacion.PN">
+                          
+                        </div>
+
+                        <div class="card border-0 mb-3 py-2" style="display: block;">
+
+                          <h4 class="text-center" >Aviso para el alumno</h4>
+                          
+                          <img class="mx-auto d-block img-fluid" src="img/Recoleccion/infoalumnos.PNG">
+                          
+                        </div>  
+                      </div>
+
+                      <div class="border-3 card card-aviso mx-3 mb-3 justify-content-center ">
+                        <div class="card-body">
+
+                          <p class="card-text">
+                            DAPO: es el el nombre de la solicitud proceso de detección de documentación que carece de validez oficial.
+                          </p>
+                        </div>
+                      </div>
+
                       
                     </div>
-
-
-                    <div class="col-lg-7">
-
-                      <div class="card border-0 mb-3 py-2" style="display: block;">
-
-                         <h4 class="text-center" >Constancia de autenticidad</h4>
-                        
-                        <img class="mx-auto d-block img-fluid" src="img/Recoleccion/acuse-autenticacion.PN">
-                        
-                      </div>
-
-                      <div class="card border-0 mb-3 py-2" style="display: block;">
-
-                        <h4 class="text-center" >Aviso para el alumno</h4>
-                        
-                        <img class="mx-auto d-block img-fluid" src="img/Recoleccion/infoalumnos.PNG">
-                        
-                      </div>  
-
-                    </div>
-
-                    <div class="border-3 card card-aviso mx-3 mb-3 justify-content-center ">
-                      <div class="card-body">
-
-                        <p class="card-text">
-                          DAPO: es el el nombre de la solicitud proceso de detección de documentación que carece de validez oficial.
-                        </p>
-                      </div>
-                    </div>
-
-                    
-                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          <h4><b>Ligas para validación de documentos</b></h4>
-
-          <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
-            <div class="col">
-              <div class="card border-0 mb-3" >
-                  <div class="row g-0">   
-
-                    <div class="col-lg-3">
-                      Sistema de Información y Gestión Educativa<br/>
-                      Validación de documentos académicos electrónicos
-                    </div>
-
-                    <div class="col-lg-3">
-                        
-                      <a href="https://siged.sep.gob.mx/SIGED/documentos.html?folio=CTG17017688" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion1.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-                    <div class="col-lg-3">
-                       Validación de certificados del colegio de bachilleres
-                    </div>
-
-                    <div class="col-lg-3 card border-0">
-                      <a href="https://siiaa.cbachilleres.edu.mx/certificados/" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion2.PNG">
-                        </button>
-                      </a> 
-                    </div>
-                    
-
-                    <div class="col-lg-3">
-                      Consulta de Certificados<br/>
-                      Dirección general de bachillerato
-                    </div>
-
-                    <div class="col-lg-3 card border-0">
-                      <a href="http://www.pace.sep.gob.mx/certificadosdgb/certificadoremesadetalles?find=ByFolioEq" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion3.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-
-                    <div class="col-lg-3">
-                    Validación de certificados del cecyte
-
-                    </div>
-
-                    <div class="col-lg-3 card border-0">
-                      <a href="https://certificados.cecyte.saeko.io/" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion4.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-
-                    <div class="col-lg-3">
-                    Validación de certificados de la Prepa en Línea-SEP
-
-                    </div>
-
-                    <div class="col-lg-3">
-                      <a href="https://prepaenlinea.sep.gob.mx/validarcertificado/" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion5.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-
-                    <div class="col-lg-3">
-                    Ventanilla Electrónica<br/>
-                    Subsecretaría de Educación Media Superior
-
-                    </div>
-
-                    <div class="col-lg-3">
-                      <a href="https://sems.edomex.gob.mx/ventanilla-electronica" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion6.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-
-                    <div class="col-lg-3">
-                    Validación de certificados del Conalep
-
-                    </div>
-
-                    <div class="col-lg-3 ">
-                      <a href="https://ct.conalep.edu.mx/folio?f=2f606dc2-3d22-4aca-9af8-22ee96de8d3f" target="_blank">
-                        <button class="col btn botonejemdoc" type="button" >
-                          <img class="img-fluid" src="./img/Recoleccion/Validacion7.PNG">
-                        </button>
-                      </a> 
-                    </div>
-
-                  </div>
-              </div>
-            </div>
-          </div>
-
+            -->
           </div>
 
         </div>
 
-        <!--Procesos-->
+        <!--Alianzas-->
         <div class="bloque" id="bloqueProcesosCD">
+
+          <div class="card border-0 py-3 px-3" > 
+
+            <h4><b>Correspondecia escolar</b></h4>
+
+            <p style="text-align: justify;">
+              Equipo encargado de recolectar y validar documentos digitales y físicos de todo estudiante que no ha completado su expediente escolar.
+              Proceso general: El asesor contacta al alumno para solicitar documentos digitales y físicos para completar el expediente escolar.
+            </P>
+
+            <h5><b>Características y condiciones de documentos: </b></h4>
+            <p>
+              Solo se aceptarán escaneos en formato PDF del documento original, que estén legibles, en buen estado, y muestren ambos lados (aún cuando esté en blanco en el reverso) con los 4 bordes completos. No se admitirán fotografías en formato PDF ni capturas de aplicaciones de celular o fotos de fotos.
+            </p>
+
+            <h5><b>Documentos digitales y físicos que se requieren: </b></h4>
+            <p>
+              Solo se aceptarán escaneos en formato PDF del documento original, que estén legibles, en buen estado, y muestren ambos lados (aún cuando esté en blanco en el reverso) con los 4 bordes completos. No se admitirán fotografías en formato PDF ni capturas de aplicaciones de celular o fotos de fotos.
+            </p>
+            
+            <!--
+              <h4><b>¿Qué es la dictaminación?</b></h4>
+            
+            <p style="text-align: justify;">
+              Proceso institucional para corroborar que los elementos de forma y validez del certificado de estudios del alumno cumplan con los lineamientos establecidos para su registro, integración y resguardo.
+              <br/><br/>
+              Para realizar este proceso es importante que los documentos se encuentren escaneados legibles, que se visualicen las 4 esquinas, completos,  que estén todas las hojas que integran el Certificado de Estudios, siempre por ambos lados. 
+              <br/><br/>
+              Si los documentos digitales no son ilegibles se rechazan y se piden escaneos correctos. Apoyándonos con el área de Recolección 
+
+            </P>
+
+            <h4 class="text-center"><b>Proceso</b></h4>
+
+            <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
+              <div class="col">
+                <div class="card border-0 mb-3" >
+                    <div class="row g-0">
+
+                      <div class="col-lg-5">
+                        <img class="mx-auto d-block img-fluid" src="img/Recoleccion/dicdocs.png">                        
+                      </div>
+
+                      <div class="col-lg-7">
+                        <div class="card border-0 mb-3 py-2" style="display: block;">
+
+                          <h4 class="text-center" >Constancia de autenticidad</h4>
+                          
+                          <img class="mx-auto d-block img-fluid" src="img/Recoleccion/acuse-autenticacion.PN">
+                          
+                        </div>
+
+                        <div class="card border-0 mb-3 py-2" style="display: block;">
+
+                          <h4 class="text-center" >Aviso para el alumno</h4>
+                          
+                          <img class="mx-auto d-block img-fluid" src="img/Recoleccion/infoalumnos.PNG">
+                          
+                        </div>  
+                      </div>
+
+                      <div class="border-3 card card-aviso mx-3 mb-3 justify-content-center ">
+                        <div class="card-body">
+
+                          <p class="card-text">
+                            DAPO: es el el nombre de la solicitud proceso de detección de documentación que carece de validez oficial.
+                          </p>
+                        </div>
+                      </div>
+
+                      
+                    </div>
+                </div>
+              </div>
+            </div>
+            -->
+          </div>
+          <!--
           <h1>Procesos de recolección de documentos</h1>
           <div class="row row-cols-1 row-cols-xl-1 row-cols-md-1 g-4 my-1">
             <div class="col">
@@ -1731,8 +1852,9 @@
             </div>
  
           </div>
-          
+          -->
         </div>
       </div>
     </div>
   </div>
+  
