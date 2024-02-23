@@ -245,7 +245,7 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsereva" aria-expanded="false" aria-controls="flush-collapsereva">
-                    Documentos físicos para revalidación:
+                    Documentos digitales y físicos para revalidación
                   </button>
                 </h2>
                 <div id="flush-collapsereva" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
@@ -253,7 +253,7 @@
                       <p style="text-align: justify;">
                       ● Acta de nacimiento/partida de nacimiento original <br/>
                       ● Certificado/diploma/título de bachiller o equivalente.<br/>
-                      ● Antecedentes de Secundaria (Boletas de calificaciones, boleta de notas o sabana de materia, tipo historial académico, estos últimas no son oficiales)<br/>
+                      ● Antecedentes de Secundaria (Boletas de calificaciones y boleta de notas)<br/>
                       ● Carta poder (Solo aplica para maestría)<br/>
                       <div class="container mt-5">
                         <div class="row row-cols-xl-1 row-cols-xl-4 row-cols-md-4">
@@ -270,16 +270,17 @@
               <div class="accordion-item">
                 <h2 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseeq" aria-expanded="false" aria-controls="flush-collapseeq">
-                    Documentos digitales y físicos para equivalencia de materias:
+                    Documentos digitales y físicos para equivalencia de materias
                   </button>
                 </h2>
                 <div id="flush-collapseeq" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
                     <p style="text-align: justify;">
-                      ● Acta de nacimiento/partida de nacimiento original <br/>
-                      ● Certificado/diploma/título de bachiller o equivalente.<br/>
-                      ● Antecedentes de Secundaria (Boletas de calificaciones, boleta de notas o sabana de materia, tipo historial académico, estos últimas no son oficiales)<br/>
-                      ● Carta poder (Solo aplica para maestría)<br/>
+                      ● Acta de nacimiento<br/>
+                      ● Certificado total de bachillerato legalizado (si aplica) (En todos los certificados dice  “certificado o certifica”)<br/>
+                      ● Certificado parcial o total de licenciatura legalizado (si aplica) (En todos los certificados dice  “certificado o certifica”)<br/>
+                      ● Carta poder con firma autógrafa (llenar la parte de firma del otorgante y nombre de otorgante, sin fecha, nada adicional (formato legible))
+
                       <div class="container mt-5">
                         <div class="row row-cols-xl-1 row-cols-xl-4 row-cols-md-4">
                           <div class="col">
@@ -303,7 +304,36 @@
                 </h2>
                 <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                   <div class="accordion-body">
-                    En caso de que desees asistir de forma presencial, te atenderemos de lunes a viernes de 9:00 am a 5:00 pm en nuestras instalaciones en UTEL, ubicadas en la Calle Calz. de la Naranja 159, , Alce Blanco,entre la calle esfuerzo nacional y calle 8 53370 Naucalpan de Juárez, Méx.
+                    
+                    <div class="row">
+                      <div class="col col-mb-6">
+                        <p class="text-center" id="ubi">
+                          En caso de que desees asistir de forma presencial, te atenderemos de lunes a viernes de 9:00 am a 5:00 pm en nuestras instalaciones en UTEL, ubicadas en:
+
+                          Calzada La Naranja 159, entre calle Esfuerzo Nacional y calle 8,<br />
+                          Fraccionamiento Industrial Alce Blanco, Naucalpan, Estado de México, C.P. 53370.<br />
+                        </p>
+
+                        <a class="Botonmanual row py-2 px-2 text-center justify-content-center" href="#ubi"
+                          onclick="copiarAlPortapapeles()">Copiar</a>
+                        <script>
+                          function copiarAlPortapapeles(id_elemento) {
+                            var aux = document.createElement("input");
+                            aux.setAttribute("value", "Calzada La Naranja  159, entre calle Esfuerzo Nacional y calle 8,Fraccionamiento Industrial Alce Blanco, Naucalpan, Estado de México, C.P. 53370.");
+                            document.body.appendChild(aux);
+                            aux.select();
+                            document.execCommand("copy");
+                            document.body.removeChild(aux);
+                          }
+                        </script>
+                        <a href="https://goo.gl/maps/yLxqfZMPLEM2" class="Botonmanual row py-2 px-2 text-center justify-content-center"
+                          target="_blank">Ver ubicación en maps</a></br>
+                      </div>
+
+                      <div class="col col-mb-6">
+                        <img class="rounded-3 d-block w-100" src="img/escolares/utelplantel.jpg" alt="">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -697,18 +727,24 @@
                     <b>UNAG Maestría</b>
                     </div>
                     <div class="card-body">                   
-                    ● Acta de nacimiento original y 3 copias.<br/>      
-                    ● Certificado total de licenciatura original y 3 copias.<br/>
-                    ● 3 Copias del título profesional de licenciatura por ambos lados.<br/>
-                    ● 3 Copias de cédula profesional de licenciatura por ambos lados.<br/>
-                    ● 2 Copias del CURP actualizada.<br/>
-                    ● Copia de la identificación oficial por ambos lados.<br/>
-                    ● Copia del comprobante de domicilio no mayor a 3 meses<br/>
-                    ● Ficha de inscripción de ingreso a posgrado autorizado por UNAG original con firma autógrafa y fotografía actualizada.<br/>
-                    ● Carta compromiso autorizada por UNAG de ingreso al posgrado.<br/>
-                    ● 2 Fotos tamaño infantil, en blanco y negro. No instantáneas, con auto-adherible, papel mate (debe ser en papel fotográfico, sin brillo, no papel satinado).<br/>
-
-                    NOTA: Las copias certificadas ante notario público no son aceptadas como reemplazo del original. 
+                      ● Acta de nacimiento original y 3 copias.<br/>      
+                      ● Certificado total de licenciatura original y 3 copias.<br/>
+                      ● 3 Copias del título profesional de licenciatura por ambos lados.<br/>
+                      ● 3 Copias de cédula profesional de licenciatura por ambos lados.<br/>
+                      ● 2 Copias del CURP actualizada.<br/>
+                      ● Copia de la identificación oficial por ambos lados.<br/>
+                      ● Copia del comprobante de domicilio no mayor a 3 meses<br/>
+                      ● Ficha de inscripción de ingreso a posgrado autorizado por UNAG original con firma autógrafa y fotografía actualizada.<br/>
+                      ● Carta compromiso autorizada por UNAG de ingreso al posgrado.<br/>
+                      ● 2 Fotos tamaño infantil, en blanco y negro. No instantáneas, con auto-adherible, papel mate (debe ser en papel fotográfico, sin brillo, no papel satinado).<br/>
+                      <br/>
+                      <div class="border-3 card card-aviso mb-3 justify-content-center ">
+                        <div class="card-body">
+                          <p class="card-text">
+                            NOTA: Las copias certificadas ante notario público no son aceptadas como reemplazo del original. 
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -727,10 +763,14 @@
                       ● Copia del comprobante de domicilio no mayor a 3 meses.<br/>
                       ● Ficha de inscripción de ingreso a posgrado autorizada por UNAG original con firma autógrafa y fotografía actualizada.<br/>
                       ● Carta compromiso autorizado por UNAG de ingreso al posgrado.<br/>
-                      ● 2 fotografías tamaño infantil blanco y negro, papel adherible, mate.<br/>
-
-                      NOTA: Las copias certificadas ante notario público no son aceptadas como reemplazo del original.                  
-
+                      ● 2 fotografías tamaño infantil blanco y negro, papel adherible, mate.<br/><br/>
+                      <div class="border-3 card card-aviso mb-3 justify-content-center ">
+                        <div class="card-body">
+                          <p class="card-text">
+                            NOTA: Las copias certificadas ante notario público no son aceptadas como reemplazo del original.  
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>                  
                 </div>
@@ -753,8 +793,14 @@
                       ● Carta responsiva del padre o tutor original dirigida a ÚNICA con firma autógrafa <br/>
                       ● Copia de la credencial del menor<br/>
                       ● Copia de la identificación oficial por ambos lados del padre o tutor (2 copias, legibles, no obscuras)<br/>
-
-                      NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original
+                      <br/>
+                      <div class="border-3 card card-aviso mb-3 justify-content-center ">
+                        <div class="card-body">
+                          <p class="card-text">
+                            NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                   <br/>
@@ -779,14 +825,15 @@
                       En caso de que seas menor de edad adicionalmente se requiere<br/>
                       ● Carta responsiva del padre o tutor original dirigida a UVE con firma autógrafa<br/>
                       ● Copia de la credencial del menor puede ser de cualquier grado escolar anterior<br/>
-                      ● Copia de la identificación oficial por ambos lados del padre o tutor (3 copias)<br/>
-
-                      En caso de que seas menor de edad adicionalmente se requiere
-                      ● Carta responsiva del padre o tutor original dirigida a UVE con firma autógrafa
-                      ● Copia de la credencial del menor puede ser de cualquier grado escolar anterior
-                      ● Copia de la identificación oficial por ambos lados del padre o tutor (3 copias) 
-                      
-                      NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original
+                      ● Copia de la identificación oficial por ambos lados del padre o tutor (3 copias)
+                      <br/><br/>
+                      <div class="border-3 card card-aviso mb-3 justify-content-center ">
+                        <div class="card-body">
+                          <p class="card-text">
+                            NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -810,8 +857,15 @@
                       En caso de que se menor de edad adicionalmente se requiere:<br/>
                       ● Carta responsiva del padre o tutor original dirigida a UVE con firma autógrafa<br/>
                       ● Copia de la credencial del menor<br/>
-                      ● Copia de la identificación oficial por ambos lados del padre o tutor<br/>
-                      NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original.
+                      ● Copia de la identificación oficial por ambos lados del padre o tutor
+                      <br/><br/>
+                      <div class="border-3 card card-aviso mb-3 justify-content-center ">
+                        <div class="card-body">
+                          <p class="card-text">
+                            NOTA: copias certificadas ante notario público no son aceptadas como reemplazo del original
+                          </p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
