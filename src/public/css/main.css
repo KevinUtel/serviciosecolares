@@ -13,6 +13,12 @@ body {
 
   }
   
+  .border-customrec{
+    --bs-border-opacity: 1;
+    border-color: #56ab2f;
+
+  }
+  
   /* Sub menu */
   .contenedor{
     width: 100%;
